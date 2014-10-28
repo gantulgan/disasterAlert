@@ -60,7 +60,7 @@ $(document).ready(function() {
 }
 
 #content {
-/* 	background-color: #D5F0F5; */
+ 	background-color: #FFFFFF; 
 /* 	background-image: linear-gradient(top, #fff, #ddd); */
 	border-radius: 0 2px 2px 2px;
 /* 	box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset; */
@@ -79,7 +79,11 @@ $(document).ready(function() {
 	</ul>
 
 	<div id="content">
-		<div id="tab1">One - content</div>
-		<div id="tab2">Two - content</div>
+		<div id="tab1">
+			<jsp:include page="/mapper/mapper_district_control.jsp"></jsp:include>
+		</div>
+		<div id="tab2">
+			<jsp:include page="/mapper/mapper_basin_control.jsp"></jsp:include>
+		</div>
 	</div>
 </div>
