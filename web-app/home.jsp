@@ -4,12 +4,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
-<link rel="stylesheet" type="text/css" href="css/common.css">
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+<jsp:include page="/includes/links.jsp"/>
 </head>
 <body>
-<jsp:include page="/includes/header.jsp"></jsp:include>
-<jsp:include page="/home_body.jsp"></jsp:include>
-<jsp:include page="/includes/footer.jsp"></jsp:include>
+<jsp:include page="/includes/header.jsp"/>
+<jsp:include page="/home_body.jsp"/>
+<jsp:include page="/includes/footer.jsp"/>
 </body>
 </html>

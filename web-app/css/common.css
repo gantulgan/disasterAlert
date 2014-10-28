@@ -88,14 +88,44 @@ div.news_category_container h1
     overflow: hidden;
 	background-color: #ccecf4;
 }
+
 .title_img
 {
 	max-height: 30px;
 	max-width: 30px;
-	
 	height:auto; 
 	width:auto;
-	
-    
 }
-​​
+
+.map_control_view
+{
+	float: left;
+	width: 290px;
+	max-width: 290px;
+	height: 580px;
+	padding-left: 10px;
+}
+
+.map_view
+{
+	float: right;
+	width: 714px;
+	max-width: 714px;
+	height: 580px;
+	padding-right: 10px;
+	background-color: #ccecf4;
+}
+
+.map_loading {
+	width: 100%; /*can be in percentage also.*/
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.news_category_container
+{
+	margin-bottom: 20px;
+}​​
