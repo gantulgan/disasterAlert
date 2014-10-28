@@ -6,8 +6,14 @@
 <title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD:web-app/mapper.jsp
 <jsp:include page="/includes/header.jsp"></jsp:include>
 <jsp:include page="/mapper_body.jsp"></jsp:include>
 <jsp:include page="/includes/footer.jsp"></jsp:include>
+=======
+<jsp:include page="/includes/header.jsp"/>
+<jsp:include page="/mapper/mapper_body.jsp"/>
+<jsp:include page="/includes/footer.jsp"/>
+>>>>>>> origin/master:web-app/mapper/mapper.jsp
 </body>
 </html>
