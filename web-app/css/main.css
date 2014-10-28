@@ -1,0 +1,255 @@
+html,body{margin:0;padding:0}
+/*Start==Main Body*/
+body {
+    font: 76% arial,sans-serif;
+    text-align:center;
+    background-color: #333;
+    margin:  0px;   
+}
+p {
+    margin:0 10px 10px;
+}
+
+a {
+    display:block;
+    color: #981793;
+    padding:10px;
+}
+/*End==Main Body*/
+/*Start==div*/
+/*background*/
+div#background {
+    width:  100%;
+    height: 100%;
+    background-image: url('../images/bg2.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    vertical-align: top; 
+    margin: -10px auto;
+    padding: 5px 0px 0px 0px;
+    background-attachment: fixed;
+}
+/*Profile LINKS*/
+div#hWrapper {
+    background-image: url('../images/header.jpg');
+    width:  100%;
+    height: 210px;
+    position: fixed;
+    margin: 0 auto;
+}
+div#tabs {
+    width: 1024px;
+    padding:  0px;
+    margin:  0px auto;
+
+        
+}
+div#tabs ul {
+    text-align: left;
+    padding:  0px;
+    margin:  0px auto;
+    border-style: solid;
+    border-color: #696969;
+    border-width: 2px 0px 0px 0px; 
+}
+div#tabs ul li {
+    display:  inline;
+    padding:  0px;
+    margin:  0px auto;
+
+}
+div#tabs ul li a{
+	display: inline-block;
+}
+div#tabs ul li a {
+	text-decoration: none;
+    color: #696969;
+    
+}
+div#tabs ul li a:hover {
+    color: white;
+
+}
+
+div#profile {
+    width: 1024px;
+    margin: 0 auto;
+}
+div#profile ul {
+    text-align: right;
+}
+div#profile ul li {
+    display:  inline;
+}
+div#profile ul li a{
+	display: inline-block;
+}
+div#profile ul li a {
+	padding: 10px 10px;
+	text-decoration: none;
+    color: #696969;
+}
+div#profile ul li a:hover {
+    color: white;
+
+}
+/*THE END*/
+/*header*/
+div#header {
+    width:  1024px;
+    margin: 0 auto;
+}
+div#header h1{
+    color: White;
+    text-align: left;
+    margin: 0px 0px 0px 5%;
+}
+div#header h2{
+    color: #CDCCCC;
+    text-align: left;
+    margin-left: 15%;
+}
+/*container*/
+div#container {
+    text-align:center;
+    width:  1024px;
+    margin: 210px auto;      
+}
+/*hBanner*/
+div#hBanner {
+    background-color: #981793;
+    background-image: url("../images/hBanner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 260px;
+}
+div#hBanner h1 {
+    height:80px;
+    line-height:80px;
+    margin:0;
+    padding-left:10px;
+}
+/*content*/
+div#content {
+    background-color: #ccecf4;
+    width:1024px;
+    height: 700px;
+}
+/*fLinkStrip*/
+div#fLinkStrip {
+    background-image:  url('../images/fStrip.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:  20px;
+}
+/*fLinks*/
+#sitemap {
+    margin: 0px 0px 0px 15px;
+}
+#sitemap p{
+    color: black;
+    display: inline-block;
+    padding:  0px;
+    margin: 0px;
+
+}
+div#fLinks {
+    background-color: #f00;
+    background-image: url('../images/fLBg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+    width: 100%;
+    height: 150px; 
+    text-align: left;
+
+}
+
+#fLinks a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+    margin:  0px 0px 0px 5px;
+}
+#fLinks a:hover {
+    color: white;
+}
+#col1 {
+	float:left;
+	width:10%;
+	position:relative;
+    left: 5%;
+	overflow:hidden;
+    margin: 20px auto;
+    height: 100px;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+    left: 5%;
+	overflow:hidden;
+    margin: 20px auto;
+    height: 120px;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+    left: 7%;
+	overflow:hidden;
+    margin: 20px auto;
+    height: 120px;
+}
+#col4 {
+	float:left;
+	width:30%;
+	position:relative;
+    left: 10%;
+	overflow:hidden;
+    margin: 20px auto;
+    height: 120px;
+    
+}
+/*fBanner*/
+div#fBanner {
+    background:#FF8539;
+    background-image:  url('../images/fBanner.jpg');
+    height: 150px;
+}
+/*footer*/
+
+div#footer {
+    background: #ccecf4;
+    color: #696969;
+    width: 100%;
+}
+div#footer p {
+    padding: 10px 10px;
+    float: left;
+}
+
+div#footer ul {
+    text-align: right;
+}
+div#footer ul li {
+    display:  inline;
+}
+div#footer ul li a{
+	display: inline-block;
+}
+div#footer ul li a {
+	background-color: #ccecf4;
+	padding: 10px 10px;
+	text-decoration: none;
+    color: #696969;
+}
+div#footer ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+/*End==div*/
+
