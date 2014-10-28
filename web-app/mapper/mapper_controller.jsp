@@ -3,20 +3,20 @@
 <script>
 $(document).ready(function() {
     $("#content div").hide(); // Initially hide all content
-    $("#tabs li:first").attr("id","current"); // Activate first tab
+    $("#control_tabs li:first").attr("id","current"); // Activate first tab
     $("#content div:first").fadeIn(); // Show first tab content
     
-    $('#tabs a').click(function(e) {
+    $('#control_tabs a').click(function(e) {
         e.preventDefault();        
         $("#content div").hide(); //Hide all content
-        $("#tabs li").attr("id",""); //Reset id's
+        $("#control_tabs li").attr("id",""); //Reset id's
         $(this).parent().attr("id","current"); // Activate this
         $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
     });
-})();
+});
 </script>
 <style>
-#tabs {
+#control_tabs {
 	overflow: auto;
 	width: 100%;
 	list-style: none;
@@ -24,13 +24,13 @@ $(document).ready(function() {
 	padding: 0;
 }
 
-#tabs li {
+#control_tabs li {
 	margin: 0;
 	padding: 0;
 	float: left;
 }
 
-#tabs a {
+#control_tabs a {
 	box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
 	background: #044048;
 /* 	background: linear-gradient(220deg, transparent 10px, #ad1c1c 10px); */
@@ -43,16 +43,16 @@ $(document).ready(function() {
 	text-decoration: none;
 }
 
-#tabs a:hover {
+#control_tabs a:hover {
 	background: #36666D;
 /* 	background: linear-gradient(220deg, transparent 10px, #c93434 10px); */
 }
 
-#tabs a:focus {
+#control_tabs a:focus {
 	outline: 0;
 }
 
-#tabs #current a {
+#control_tabs #current a {
 	background: #fff;
 /* 	background: linear-gradient(220deg, transparent 10px, #fff 10px); */
 	text-shadow: none;
@@ -73,16 +73,16 @@ $(document).ready(function() {
 }
 </style>
 <div class="map_control_view">
-	<ul id="tabs">
-		<li><a href="#" title="tab1">One</a></li>
-		<li><a href="#" title="tab2">Two</a></li>
+	<ul id="control_tabs">
+		<li><a href="#" title="control_tab1">One</a></li>
+		<li><a href="#" title="control_tab2">Two</a></li>
 	</ul>
 
 	<div id="content">
-		<div id="tab1">
+		<div id="control_tab1">
 			<jsp:include page="/mapper/mapper_district_control.jsp"></jsp:include>
 		</div>
-		<div id="tab2">
+		<div id="control_tab2">
 			<jsp:include page="/mapper/mapper_basin_control.jsp"></jsp:include>
 		</div>
 	</div>

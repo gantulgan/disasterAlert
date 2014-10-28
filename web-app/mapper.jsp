@@ -4,13 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
-<jsp:include page="/includes/links.jsp"></jsp:include>
-<script>
-	$(function() {
-		loadTab()
-    });
-</script>
-
+<jsp:include page="/includes/links.jsp"></jsp:include>    
 </head>
 <body>
     <div id="background">
@@ -18,7 +12,7 @@
 		<div id="container">
             <div id="hBanner"></div>
             <div id="">  		
-				<jsp:include page="/home_body.jsp"></jsp:include>
+				<jsp:include page="/mapper/mapper_body.jsp"/>
 			</div>
 			<jsp:include page="/includes/footer.jsp"></jsp:include>
 		</div>

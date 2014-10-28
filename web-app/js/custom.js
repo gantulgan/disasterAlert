@@ -7,6 +7,9 @@ function loadMap(){
 	$('#map_frame').load(function(){
 		$(".map_loading").hide();
 	    $(this).show();
-//	    console.log('load the iframe')
 	});
+}
+
+function loadTab(){
+    $( "#tabs" ).tabs();
 }
