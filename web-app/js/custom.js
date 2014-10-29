@@ -13,3 +13,7 @@ function loadMap(){
 function loadTab(){
     $( "#tabs" ).tabs();
 }
+
+function loadControlTab(){
+    $( "#control_tabs" ).tabs();
+}

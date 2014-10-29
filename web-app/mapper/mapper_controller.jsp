@@ -2,13 +2,13 @@
 	pageEncoding="UTF-8"%>
 <script>
 $(document).ready(function() {
-    $("#content div").hide(); // Initially hide all content
+    $("#control_content div").hide(); // Initially hide all content
     $("#control_tabs li:first").attr("id","current"); // Activate first tab
-    $("#content div:first").fadeIn(); // Show first tab content
+    $("#control_content div:first").fadeIn(); // Show first tab content
     
     $('#control_tabs a').click(function(e) {
         e.preventDefault();        
-        $("#content div").hide(); //Hide all content
+        $("#control_content div").hide(); //Hide all content
         $("#control_tabs li").attr("id",""); //Reset id's
         $(this).parent().attr("id","current"); // Activate this
         $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
@@ -59,7 +59,7 @@ $(document).ready(function() {
 	color: #333;
 }
 
-#content {
+#control_content {
  	background-color: #FFFFFF; 
 /* 	background-image: linear-gradient(top, #fff, #ddd); */
 	border-radius: 0 2px 2px 2px;
@@ -68,7 +68,7 @@ $(document).ready(function() {
 }
 
 /* Remove the rule below if you want the content to be "organic" */
-#content div {
+#control_content div {
 	height: 525px;
 }
 </style>
@@ -78,7 +78,7 @@ $(document).ready(function() {
 		<li><a href="#" title="control_tab2">Two</a></li>
 	</ul>
 
-	<div id="content">
+	<div id="control_content">
 		<div id="control_tab1">
 			<jsp:include page="/mapper/mapper_district_control.jsp"></jsp:include>
 		</div>

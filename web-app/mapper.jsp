@@ -10,7 +10,7 @@
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
 		<div id="container">
-            <div id="hBanner"></div>
+<!--             <div id="hBanner"></div> -->
             <div id="">  		
 				<jsp:include page="/mapper/mapper_body.jsp"/>
 			</div>
