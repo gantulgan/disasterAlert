@@ -116,7 +116,7 @@ div#header h2{
 div#container {
     text-align:center;
     width:  1024px;
-    margin: 210px auto;      
+    margin: 210px auto 0px;      
 }
 /*hBanner*/
 div#hBanner {
