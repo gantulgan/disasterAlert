@@ -126,6 +126,7 @@ div.news_category_container h1
     position: relative;
     text-align: center;
     vertical-align: middle;
+    z-index: 900;
 }
 
 .news_category_container

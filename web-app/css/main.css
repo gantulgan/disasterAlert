@@ -39,6 +39,7 @@ div#hWrapper {
     height: 210px;
     position: fixed;
     margin: 0 auto;
+    z-index: 909;
 }
 div#tabs {
     width: 1024px;
