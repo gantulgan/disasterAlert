@@ -4,7 +4,7 @@ body {
     font: 76% arial,sans-serif;
     text-align:center;
     background-color: #333;
-    margin:  0px;   
+    margin:  0px;  
 }
 p {
     margin:0 10px 10px;
@@ -28,6 +28,9 @@ div#background {
     margin: -10px auto;
     padding: 5px 0px 0px 0px;
     background-attachment: fixed;
+    background-style: fixed;
+    
+    
 }
 /*Profile LINKS*/
 div#hWrapper {
@@ -134,7 +137,6 @@ div#hBanner h1 {
 div#content {
     background-color: #ccecf4;
     width:1024px;
-    height: 700px;
 }
 /*fLinkStrip*/
 div#fLinkStrip {
