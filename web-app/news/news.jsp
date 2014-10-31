@@ -2,7 +2,9 @@
 	pageEncoding="UTF-8"%>
 <div class="news_container">
 	<div class="news_category_container">
-		<h1><img class="title_img" alt="Мэдээний зураг" src="/images/news.png" /> Мэдээ мэдээлэл өөө</h1>
+		<div class="news_category_title">
+			<h1><img class="title_img" alt="Мэдээний зураг" src="/images/news.png" /> Мэдээ мэдээлэл өөө</h1>
+		</div>
 		<div class="home_left">
 			<h2 class="news_category">Мэдээ мэдээлэл</h2>
 
@@ -37,7 +39,9 @@
 		</div>
 	</div>
 	<div class="news_category_container">
-		<h1><img class="title_img" alt="Мэдээний зураг" src="/images/news.png" /> Гамшгийн менежмент</h1>
+		<div class="news_category_title">
+			<h1><img class="title_img" alt="Мэдээний зураг" src="/images/news.png" /> Гамшгийн менежмент</h1>
+		</div>
 		<div class="home_left">
 			<h2 class="news_category">Нутгийн иргэнийн оролцоо</h2>
 			<jsp:include page="news_brief.jsp">

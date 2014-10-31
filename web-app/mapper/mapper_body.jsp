@@ -32,7 +32,6 @@
 			loadMap();
 
 			loadTab();
-			loadControlTab();
 		});
 	</script>
 </div>

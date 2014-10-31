@@ -25,19 +25,17 @@ div#background {
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     vertical-align: top; 
-    margin: -10px auto;
+    margin: -20px auto;					/*Header хөдөлдөггүй бол 10пх, хөдөлдөг бол 20пх :p*/
     padding: 5px 0px 0px 0px;
     background-attachment: fixed;
     background-style: fixed;
-    
-    
 }
 /*Profile LINKS*/
 div#hWrapper {
     background-image: url('../images/header.jpg');
     width:  100%;
     height: 210px;
-    position: fixed;
+    /*position: fixed;*/ 				/*Header is now movable :p*/
     margin: 0 auto;
     z-index: 909;
 }
@@ -45,8 +43,6 @@ div#tabs {
     width: 1024px;
     padding:  0px;
     margin:  0px auto;
-
-        
 }
 div#tabs ul {
     text-align: left;
@@ -117,7 +113,7 @@ div#header h2{
 div#container {
     text-align:center;
     width:  1024px;
-    margin: 210px auto 0px;      
+    margin: 0px auto 0px;      /*Header хөдөлдөг бол margin: 210px auto 0px :p*/
 }
 /*hBanner*/
 div#hBanner {

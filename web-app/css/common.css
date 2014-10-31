@@ -41,11 +41,21 @@ container h2
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+h1
+{
+	padding-bottom: 0px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
 h2.news_category
 {
 	color: white;
 	background-color: #0e2d41;
 	padding-left: 10px;
+	height: 25px;
 }
 
 img.thumbnail_img
@@ -74,6 +84,7 @@ div.news_category_container h1
 	font-style: italic; 
 	border-bottom: 3px solid;
 	background-color: #ccecf4;
+	margin-bottom: 0px;
 }
 .home_right {
     width: 492px;
@@ -96,17 +107,17 @@ div.news_category_container h1
 	
 	height:auto; 
 	width:auto;
-	
-    
 }
 
-.map_control_view
+#map_control_view
 {
+	position:relative;
 	float: left;
 	width: 290px;
 	max-width: 290px;
 	height: 580px;
 	padding-left: 10px;
+	
 }
 
 .map_view
@@ -131,5 +142,27 @@ div.news_category_container h1
 
 .news_category_container
 {
-	margin-bottom: 20px;
-}​​
+	clear: both;
+}
+.news_category_title
+{
+	clear: both;
+}
+#distict_control_chooser​​
+{
+	position:	absolute;
+ 	width: 145px;
+ 	background-color: green;
+}
+
+#basin_control_chooser​​
+{
+	float: left;
+ 	width: 145px;
+ 	background-color: red;
+}
+
+.mapper_area
+{
+	position: relative;
+}
