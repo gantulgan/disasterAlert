@@ -17,9 +17,7 @@
 		<jsp:include page="/includes/header.jsp"></jsp:include>
 		<div id="container">
             <div id="hBanner"></div>
-            <div id="">  		
-				<jsp:include page="/home_body.jsp"></jsp:include>
-			</div>
+			<jsp:include page="/home_body.jsp"></jsp:include>
 			<jsp:include page="/includes/footer.jsp"></jsp:include>
 		</div>
 	</div>	
