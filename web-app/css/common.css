@@ -170,7 +170,6 @@ div.news_category_container h1
 {	
 	float: left; 
 	width: 50%;
-	background-color: red;
 	height: 35px;
 	vertical-align: middle;
 }
@@ -179,7 +178,6 @@ div.news_category_container h1
 {
 	float: right; 
 	width: 50%;
-	background-color: green;
 	height: 35px;
 	vertical-align: middle;
 }
