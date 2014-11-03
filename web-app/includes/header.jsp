@@ -1,5 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<script>
+/*Tab ийн ядаргааг засах гэж js нэмэв :Д  */
+function urlHome()
+    {
+		window.location.href = "/home.jsp";    	
+    }
+function urlEMS()
+{
+	window.location.href = "/ems.jsp";    	
+}
+</script>
 <div id="hWrapper">
             <div id="profile">
                 <ul>
@@ -12,9 +23,9 @@
                     <h2>УЛААНБААТАР ХОТЫН ҮЕРИЙН ГАМШИГААС УРДЬЧИЛАН СЭРГИЙЛЭХ СИСТЕМ</h2>
                 <div id="tabs">
                   <ul>
-                    <li><a href="#tabs-1">Нүүр хуудас</a></li>
+                    <li><a href="#tabs-1" onclick="urlHome()">Нүүр хуудас</a></li>
                     <li><a href="#tabs-2">Мэдээ Мэдээлэл</a></li>
-                    <li><a href="#tabs-3">Үерийн эрсдэлтэй бүсүүд</a></li>
+                    <li><a href="#tabs-3" onclick="urlEMS()">Үерийн эрсдэлтэй бүсүүд</a></li>
                   </ul>
                   <div id="tabs-1">
                   </div>
