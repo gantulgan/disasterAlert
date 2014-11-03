@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<link rel="Stylesheet" type="text/css" href="css/main.css">
 <div id="hWrapper">
             <div id="profile">
                 <ul>
