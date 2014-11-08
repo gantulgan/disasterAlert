@@ -7,8 +7,9 @@
 			байна... Түр хүлээнэ үү.
 		</p>
 	</div>
+	<div class="embed-responsive embed-responsive-4by3">
 	<div id="map">
-		<iframe id="map_frame" style="border: none;" height="580" width="714"
-			src=""></iframe>
+		<iframe id="map_frame" style="border: none;" src=""></iframe>
+	</div>
 	</div>
 </div>
