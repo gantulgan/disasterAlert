@@ -57,3 +57,30 @@ function enableBasinController(){
 	$("#control_basin").css("display", "block");
 }
 
+$("#firstArea").hover(
+	function(){
+		$("#firstComment").fadeIn(100);
+	},
+	function(){
+		$("#firstComment").fadeOut(100);
+	}
+);
+
+$("#fullScreenButton").click(function(){
+		if ($("#map_frame").height() != 580 || $("#map_frame").width() != 714 ){
+			backfullScr();
+		}
+		else{
+			fullScr();
+		}
+		
+	}
+);
+function fullScr(){
+	$("#map_frame").animate({"width": $(window).width(), "height": $(window).height() }, "slow");
+}
+
+function backfullScr(){
+	$("#map_frame").animate({"width": "714px", "height": "580px" }, "slow");
+}
+

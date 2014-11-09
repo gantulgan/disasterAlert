@@ -14,8 +14,14 @@ div.sub_title
 	background-color: #00a2e8;
     color: white; 
 	margin-right: 10px; 
-	
 }
+
+.news_category>h2
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .news_category
 {
 	color: white;
@@ -68,6 +74,12 @@ div.news_category_title
     vertical-align: middle;
     z-index: 900;
 }
+.news_category_title>h1
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .news_category_title
 {
 	clear: both;
