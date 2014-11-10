@@ -116,9 +116,11 @@ div#contentBody {
 .col-md-6:hover,
 .col-md-6:focus {
 	border: 2px solid white;
+    opacity: 1;
 }
 .col-md-6 {
 	border: 2px solid #ccecf4;
+	opacity: 0.8;
 }
 div#content {
     background-color: #ccecf4;

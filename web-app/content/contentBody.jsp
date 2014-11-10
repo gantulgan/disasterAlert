@@ -23,7 +23,7 @@
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Менежмент</h2>
-		          <p class="lead">Үерийн Эрсдлийн менежмент</p>
+		          <p class="lead">Үерийн Эрсдэлийн менежмент</p>
 		        </div>
 		      	</div>
 		</div>      	
@@ -49,7 +49,7 @@
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Мэдээлэл</h2>
-	          <p class="lead">Үертэй холбоотой зөвөлгөө болон нэмэлт мэдээлэл авах.</p>
+	          <p class="lead">Үертэй холбоотой зөвлөгөө болон нэмэлт мэдээлэл авах.</p>
 	        </div>
 	      	</div>
 		</div>      	

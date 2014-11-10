@@ -7,25 +7,25 @@
                  <div class="item active">
                      <!-- <img class="slide-image" src="" alt=""> -->
                      <div>
-                     	 <h1>Үерийн Эрсдлийн Менежмент.</h1>
+                     	 <h1>Үерийн Эрсдэлийн Менежмент</h1>
 						 <p>Үерийн эрсдлээс хэрхэн сэргийлэх вэ? Улаанбаатар хотын үерээс урьдчилан сэргийлэх систем гэж юу вэ?</p>
-						 <p><a class="" href="#" role="button">Дэлгэрэнгүй</a></p>
+						 <p><a class="" href="/management.jsp" role="button">Дэлгэрэнгүй</a></p>
                      </div>
                  </div>
                  <div class="item">
                     <!--  <img class="slide-image" src="" alt=""> -->
                       <div>
-                     	<h1>Танилцуулга.</h1>
-						<p>Улаанбаатар хорын үерийн эрсдлийн менежментийн төслийн танилцуулга.</p>
-						<p><a class="" href="#" role="button">Дэлгэрэнгүй</a></p>
+                     	<h1>Танилцуулга</h1>
+						<p>Улаанбаатар хорын үерийн эрсдэлийн менежментийн төслийн танилцуулга.</p>
+						<p><a class="" href="/info.jsp" role="button">Дэлгэрэнгүй</a></p>
                      </div>
                  </div>
                  <div class="item" >
                      <!-- <img class="slide-image" src="" alt=""> -->
                       <div>
-                     	<h1>Ирээдүйн зорилт, төлөвлөгөө.</h1>
+                     	<h1>Ирээдүйн зорилт, төлөвлөгөө</h1>
 						<p>Гамшигаас урьдчилан сэргийлэх систем гэж юу вэ?</p>
-						<p><a class="" href="#" role="button">Дэлгэрэнгүй</a></p>
+						<p><a class="" href="/info.jsp" role="button">Дэлгэрэнгүй</a></p>
                      </div>
                  </div>
              </div>

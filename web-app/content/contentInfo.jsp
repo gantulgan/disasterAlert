@@ -12,7 +12,7 @@
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Танилцуулга</h2>
-		          <p class="lead">Үерийн эрсдлийн менежментийн төслийн тухай.</p>
+		          <p class="lead">Үерийн эрсдэлийн менежментийн төслийн тухай.</p>
 		        </div>
 		      	</div>
         </div>
@@ -22,7 +22,7 @@
 		          <img class="img-circle img-responsive" src="/images/thumbnail/Help.png" alt="">
 		        </div>
 		        <div class="col-md-7">
-		          <h2 class="featurette-heading">Зөвөлгөө</h2>
+		          <h2 class="featurette-heading">зөвлөгөө</h2>
 		          <p class="lead">Үерийн эрсдлээс хэрхэн сэргийлэх вэ?</p>
 		        </div>
 		      	</div>
@@ -49,7 +49,7 @@
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Холбоо барих</h2>
-	          <p class="lead">Үерийн эрсдлийн менежментийн багтай холбоо барих.</p>
+	          <p class="lead">Үерийн эрсдэлийн менежментийн багтай холбоо барих.</p>
 	        </div>
 	      	</div>
 		</div>      	

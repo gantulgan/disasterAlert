@@ -19,7 +19,7 @@
         <div class="col-md-6" id="">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/RecentItem.png" alt="">
+		          <img class="img-circle img-responsive" src="/images/thumbnail/Recent.png" alt="">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Шуурхай Мэдээ</h2>
@@ -34,7 +34,7 @@
 	    <div class="col-md-6" id="">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	        	<img class="img-circle img-responsive" src="/images/thumbnail/DefaultSettings.png" alt="">
+	        	<img class="img-circle img-responsive" src="/images/thumbnail/DefaultSetting.png" alt="">
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading">Шилдэг мэдээ</h2>

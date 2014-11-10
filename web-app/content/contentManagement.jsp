@@ -12,7 +12,7 @@
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Стратеги</h2>
-		          <p class="lead">Үерийн эрсдлийн менежментийн стратеги боловсруулалт.</p>
+		          <p class="lead">Үерийн эрсдэлийн менежментийн стратеги боловсруулалт.</p>
 		        </div>
 		      	</div>
         </div>
@@ -23,7 +23,7 @@
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Дэд бүтэц</h2>
-		          <p class="lead">Үерийн эрсдлийн менежментийн дэд бүтэц.</p>
+		          <p class="lead">Үерийн эрсдэлийн менежментийн дэд бүтэц.</p>
 		        </div>
 		      	</div>
 		</div>      	
@@ -38,7 +38,7 @@
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></h2>
-		        <p class="lead">Иргэдэд суурилсан гамшигийн эрсдлийн менежмент гэж юу вэ?</p>
+		        <p class="lead">Иргэдэд суурилсан гамшигийн эрсдэлийн менежмент гэж юу вэ?</p>
 	     	</div>
 	    	</div>
 	    </div>
@@ -49,7 +49,7 @@
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Институци</h2>
-	          <p class="lead">Үерийн Эрсдлийн менежментийн институци.</p>
+	          <p class="lead">Үерийн эрсдэлийн менежментийн институци.</p>
 	        </div>
 	      	</div>
 		</div>      	

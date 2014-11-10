@@ -18,13 +18,13 @@
             <a href="/home.jsp">Нүүр</a>
         </div>
         <div class="form-group">                
-            <a href="/news.jsp">Менежмент</a>
+            <a href="/management.jsp">Менежмент</a>
         </div>
         <div class="form-group">                
             <a href="/mapper.jsp">Газрын зураг</a>
         </div>
         <div class="form-group">                
-            <a href="/contact.jsp">Холбогдох</a>
+            <a href="/info.jsp">Холбогдох</a>
         </div>
         <div class="form-group">                
 			<a href="/login.jsp">Нэвтрэх</a>
