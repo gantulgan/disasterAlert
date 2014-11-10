@@ -1,4 +1,5 @@
 /**
+ * Author Gantulga Nadmid 2014
  * Custom js functions.
  */
 function loadMap(){
@@ -100,73 +101,44 @@ function loadLinkButtons(page){
 	}
 	if ( page == "news" ){
 		$("#newNews").click(function(){
-			window.location.href='/news.jsp?newsType=new';
+			window.location.href='/news.jsp?type=new';
 		});
 		$("#emergencyNews").click(function(){
-			window.location.href='/news.jsp?newsType=emergency';
+			window.location.href='/news.jsp?type=emergency';
 		});
 		$("#topNews").click(function(){
-			window.location.href='/news.jsp?newsType=top';
+			window.location.href='/news.jsp?type=top';
 		});
 		$("#popularNews").click(function(){
-			window.location.href='/news.jsp?newsType=popular';
+			window.location.href='/news.jsp?type=popular';
 		});
 	}
 	if ( page == "management" ){
 		$("#strategyMNG").click(function(){
-			window.location.href='/management.jsp?newsType=strategy';
+			window.location.href='/management.jsp?type=strategy';
 		});
 		$("#structureMNG").click(function(){
-			window.location.href='/management.jsp?newsType=structure';
+			window.location.href='/management.jsp?type=structure';
 		});
 		$("#cbdrmMNG").click(function(){
-			window.location.href='/management.jsp?newsType=cbdrm';
+			window.location.href='/management.jsp?type=cbdrm';
 		});
 		$("#institutionMNG").click(function(){
-			window.location.href='/management.jsp?newsType=nstitution';
+			window.location.href='/management.jsp?type=institution';
 		});
 	}
 	if ( page == "info" ){
 		$("#introIngo").click(function(){
-			window.location.href='/info.jsp?newsType=intro';
+			window.location.href='/info.jsp?type=intro';
 		});
 		$("#adviceInfo").click(function(){
-			window.location.href='/info.jsp?newsType=advice';
+			window.location.href='/info.jsp?type=advice';
 		});
 		$("#firstaidInfo").click(function(){
-			window.location.href='/info.jsp?newsType=firstaid';
+			window.location.href='/info.jsp?type=firstaid';
 		});
 		$("#contactInfo").click(function(){
-			window.location.href='/info.jsp?newsType=contact';
+			window.location.href='/info.jsp?type=contact';
 		});
 	}
-};
-
-function prepareDiagramPanels(){
-	var hoverPanels = new Array($("#dmMonitoringArea"),
-			$("#dmRiskArea"),
-			$("#dmPreparednessArea"),
-			$("#dmPreventionArea"),
-			$("#dmPredictiveArea"),
-			$("#dmDamageArea"),
-			$("#dmWarningArea"),
-			$("#dmRecoveryArea"),
-			$("#dmHazardArea"),
-			$("#dmReadinessArea"),
-			$("#dmResponseArea"));
-
-	$.each( hoverPanels, function( i, l ){	
-		$("#" + l.attr("id") + "Text").hide();
-		$("#" + l.attr("id") + "Text").addClass("diagramDescription");
-		l.hover(
-			function(){
-				console.log(" in - " + "#" + l.attr("id") + "Text");
-				$("#" + l.attr("id") + "Text").fadeIn(300);
-			},
-			function(){
-				console.log("out - " + "#" + l.attr("id") + "Text");
-				$("#" + l.attr("id") + "Text").fadeOut(300);
-		});
-	});
-	
 };
