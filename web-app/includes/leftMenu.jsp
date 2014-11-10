@@ -3,7 +3,7 @@
 <div class="leftMenu">
 <ul id="leftMenu">
 	<li><span><a href="#">Мэдээ</a></span></li>
-	<li><span><a href="#">Гамшгийн менежмент</span></a>
+	<li><span><a href="#">Гамшгийн менежмент</a></span>
 		<ul>
 			<li><span><a href="#">Стратеги</a></span>
 				<ul>
