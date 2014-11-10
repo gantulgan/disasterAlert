@@ -1,5 +1,4 @@
 /**
- * Author Gantulga Nadmid 2014
  * Custom js functions.
  */
 function loadMap(){
@@ -141,4 +140,33 @@ function loadLinkButtons(page){
 			window.location.href='/info.jsp?type=contact';
 		});
 	}
+};
+
+function prepareDiagramPanels(){
+	var hoverPanels = new Array($("#dmMonitoringArea"),
+			$("#dmRiskArea"),
+			$("#dmPreparednessArea"),
+			$("#dmPreventionArea"),
+			$("#dmPredictiveArea"),
+			$("#dmDamageArea"),
+			$("#dmWarningArea"),
+			$("#dmRecoveryArea"),
+			$("#dmHazardArea"),
+			$("#dmReadinessArea"),
+			$("#dmResponseArea"));
+
+	$.each( hoverPanels, function( i, l ){	
+		$("#" + l.attr("id") + "Text").hide();
+		$("#" + l.attr("id") + "Text").addClass("diagramDescription");
+		l.hover(
+			function(){
+				console.log(" in - " + "#" + l.attr("id") + "Text");
+				$("#" + l.attr("id") + "Text").fadeIn(300);
+			},
+			function(){
+				console.log("out - " + "#" + l.attr("id") + "Text");
+				$("#" + l.attr("id") + "Text").fadeOut(300);
+		});
+	});
+	
 };

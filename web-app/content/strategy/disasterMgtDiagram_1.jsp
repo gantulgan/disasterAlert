@@ -9,20 +9,14 @@
 	<meta name="author" content="">
 <title>Нүүр</title>
 <jsp:include page="/includes/links.jsp"></jsp:include>
-<!-- <script>
-	$(function() {
-		loadTab()
-    });
 </script>
  -->
 </head>
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<jsp:include page="/includes/homeHeader.jsp"></jsp:include>
 		<%-- <jsp:include page="/home_body.jsp"></jsp:include> --%>
-		<jsp:include page="/content/contentBody.jsp"></jsp:include>
-<%-- 		<jsp:include page="/content/contentManagement.jsp"></jsp:include> --%>
+		<jsp:include page="/content/dmDiagram.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>
 	</div>	
 </body>
