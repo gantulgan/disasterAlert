@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<script>
+<!-- <script>
 /*Tab ийн ядаргааг засах гэж js нэмэв :Д  */
 function urlHome()
     {
@@ -10,7 +10,7 @@ function urlEMS()
 	window.location.href = "/ems.jsp";    	
 }
 </script>
-
+ --> 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -29,7 +29,7 @@ function urlEMS()
             <a href="/home.jsp">Нүүр</a>
         </div>
         <div class="form-group">                
-            <a href="/news.jsp">Мэдээлэл</a>
+            <a href="/news.jsp">Менежмент</a>
         </div>
         <div class="form-group">                
             <a href="/mapper.jsp">Газрын зураг</a>
@@ -45,8 +45,9 @@ function urlEMS()
     </div><!--/.navbar-collapse -->
   </div>
 </nav>
-<div id="headerProtector">
-<div class="container visible-lg visible-mid hidden-xs" >  
+<div id="headProtector">
+</div>
+<!-- <div class="container visible-lg visible-mid hidden-xs" >  
 	<div id="hWrapper" >
 	     <div id="header" >
 	        <h1>ҮЕРИЙН ЭРСДЛИЙН МЕНЕЖМЕНТ</h1>
@@ -73,5 +74,4 @@ function urlEMS()
 	     </div>
 	 </div>
 	 <div id="hBanner"></div>
-</div>
-</div>
+</div> -->

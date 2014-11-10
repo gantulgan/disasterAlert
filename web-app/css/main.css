@@ -24,7 +24,7 @@ div#background {
     background-style: fixed;
 }
 /*Profile LINKS*/
-div#headerProtector {
+div#headProtector {
 	margin-top: 48px;
 }
 div#hWrapper {
@@ -102,6 +102,15 @@ div#hBanner {
     height: 260px;
 }
 /*content*/
+div#contentBody {
+	background-color: #ccecf4;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.col-md-6:hover {
+	border: 2px solid white; 
+}
 div#content {
     background-color: #ccecf4;
     width:1024px;
