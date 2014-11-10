@@ -6,10 +6,8 @@
 		<ul>
 			<li><span><a href="/content/strategy/strategy.jsp?type=strategy">Стратеги</a></span>
 				<ul>
-				
 					<li><span><a href="/content/strategy/principle.jsp">Зарчим</a></span></li>
 					<li><span><a href="/content/strategy/diagram.jsp">Диаграм</a></span></li>
-					
 				</ul>
 			</li>
 			<li><span><a href="/content/insfrastructure/insfrastructure.jsp?type=structure">Дэд бүтэц</a></span></li>
