@@ -84,3 +84,8 @@ function backfullScr(){
 	$("#map_frame").animate({"width": "714px", "height": "580px" }, "slow");
 }
 
+function loadButtons(page){
+	if ( page == "home" ){
+		$("");
+	}
+};

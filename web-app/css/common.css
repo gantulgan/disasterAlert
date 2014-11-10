@@ -149,3 +149,29 @@ div.news_category_title
 {
 	height: 150px;
 }
+#leftMenu li
+{
+	list-style: none;
+}
+
+.dMSchemeContainer
+{
+	position: relative;
+}
+.dMScheme
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.absolutePos{
+	position: absolute;
+}
+#dmRiskArea
+{
+	height: 80px;
+	width: 175px;
+	top: 80px;
+	left: 150px;
+	border: thick dashed blue;
+}
