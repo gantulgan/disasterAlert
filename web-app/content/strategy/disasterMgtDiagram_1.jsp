@@ -15,7 +15,6 @@
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<jsp:include page="/includes/homeHeader.jsp"></jsp:include>
 		<%-- <jsp:include page="/home_body.jsp"></jsp:include> --%>
 		<jsp:include page="/content/dmDiagram.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>

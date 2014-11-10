@@ -5,7 +5,14 @@
 
 <div class="container">
 <div id="contentBody" >
-
+<div id="location" class="container">
+	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
+	<a href="/info.jsp"><span class="label label-primary">Мэдээлэл</span></a>
+	<a href=""><span class="label label-success">
+	<%=
+	URLUtil.typeConvertor(request.getParameter("type"))
+	%></span></a>
+</div>
 <div class="row">
 <div class="col-md-3" >
 <jsp:include page="${pageContext.request.contextPath}/includes/leftMenu.jsp"></jsp:include>
