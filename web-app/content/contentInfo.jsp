@@ -5,7 +5,7 @@
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin: 0px 15px;">
-        <div class="col-md-6" id="linkFrontNews">
+        <div class="col-md-6" id="">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
 		          <img class="img-circle img-responsive" src="/images/thumbnail/UserControl.png" alt="" >
@@ -16,7 +16,7 @@
 		        </div>
 		      	</div>
         </div>
-        <div class="col-md-6" id="linkDManagement">
+        <div class="col-md-6" id="">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
 		          <img class="img-circle img-responsive" src="/images/thumbnail/Help.png" alt="">
@@ -31,7 +31,7 @@
 </div>
 <div id="contentBody">
 	<div class="row" style="margin: 0px 15px;">
-	    <div class="col-md-6" id="linkMapper">
+	    <div class="col-md-6" id="">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
 	        	<img class="img-circle img-responsive" src="/images/thumbnail/Security.png" alt="">
@@ -42,7 +42,7 @@
 	     	</div>
 	    	</div>
 	    </div>
-	    <div class="col-md-6" id="linkContact">
+	    <div class="col-md-6" id="">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
 	          <img class="img-circle img-responsive" src="/images/thumbnail/Picture.png" alt="">
