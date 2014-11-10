@@ -100,10 +100,10 @@ function loadLinkButtons(page){
 	}
 	if ( page == "news" ){
 		$("#newNews").click(function(){
-			window.location.href='/news.jsp?type=new';
+			window.location.href='/content/news/newNews.jsp?type=new';
 		});
 		$("#emergencyNews").click(function(){
-			window.location.href='/news.jsp?type=emergency';
+			window.location.href='/content/news/emergencyNews.jsp?type=emergency';
 		});
 		$("#topNews").click(function(){
 			window.location.href='/news.jsp?type=top';
