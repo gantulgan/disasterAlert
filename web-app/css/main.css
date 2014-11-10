@@ -117,6 +117,9 @@ div#contentBody {
 .col-md-6:focus {
 	border: 2px solid white;
 }
+.col-md-6 {
+	border: 2px solid #ccecf4;
+}
 div#content {
     background-color: #ccecf4;
     width:1024px;
@@ -140,14 +143,13 @@ div#fLinks {
 	padding-left: 10px;
 }
 #sitemap {
-    margin: 0px 0px 0px 15px;
+    margin: 20px auto;
 }
-#sitemap p {
-    color: black;
-    display: inline-block;
-    padding:  0px;
-    margin: 0px;
-
+#sitemap ul {
+	list-style-type: none;
+}
+#sitemap li {
+	margin: 5px auto;
 }
 #sitemap a {
 	color: black;
@@ -158,6 +160,9 @@ div#fLinks {
 }
 #sitemap a:hover {
     color: white;
+}
+#sitemap a img:hover {
+	opacity: 0.4;
 }
 /*fBanner*/
 div#fBanner {

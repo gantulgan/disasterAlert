@@ -7,18 +7,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-<title>Home</title>
+<title>Нүүр</title>
 <jsp:include page="/includes/links.jsp"></jsp:include>
-<script>
+<!-- <script>
 	$(function() {
 		loadTab()
     });
 </script>
-
+ -->
 </head>
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
+		<jsp:include page="/includes/homeHeader.jsp"></jsp:include>
 		<%-- <jsp:include page="/home_body.jsp"></jsp:include> --%>
 		<jsp:include page="/content/content.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>

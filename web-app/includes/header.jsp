@@ -1,16 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!-- <script>
-/*Tab ийн ядаргааг засах гэж js нэмэв :Д  */
-function urlHome()
-    {
-		window.location.href = "/home.jsp";    	
-    }
-function urlEMS()
-{
-	window.location.href = "/ems.jsp";    	
-}
-</script>
- --> 
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -46,5 +35,4 @@ function urlEMS()
   </div>
 </nav>
 <div id="headProtector">
-
 </div>
