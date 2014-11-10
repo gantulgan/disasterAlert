@@ -1,5 +1,4 @@
 /**
- * Author Gantulga Nadmid 2014
  * Custom js functions.
  */
 function loadMap(){
@@ -87,16 +86,87 @@ function backfullScr(){
 function loadLinkButtons(page){
 	if ( page == "home" ){
 		$("#linkFrontNews").click(function(){
-			window.location.href='/News.jsp';
+			window.location.href='/news.jsp';
 		});
 		$("#linkDManagement").click(function(){
-			window.location.href="/Management.jsp";
+			window.location.href="/management.jsp";
 		});
 		$("#linkMapper").click(function(){
 			window.location.href="/mapper.jsp";
 		});
 		$("#linkContact").click(function(){
-			window.location.href="/Info.jsp";
+			window.location.href="/info.jsp";
 		});
 	}
+	if ( page == "news" ){
+		$("#newNews").click(function(){
+			window.location.href='/news.jsp?newsType=new';
+		});
+		$("#emergencyNews").click(function(){
+			window.location.href='/news.jsp?newsType=emergency';
+		});
+		$("#topNews").click(function(){
+			window.location.href='/news.jsp?newsType=top';
+		});
+		$("#popularNews").click(function(){
+			window.location.href='/news.jsp?newsType=popular';
+		});
+	}
+	if ( page == "management" ){
+		$("#strategyMNG").click(function(){
+			window.location.href='/management.jsp?newsType=strategy';
+		});
+		$("#structureMNG").click(function(){
+			window.location.href='/management.jsp?newsType=structure';
+		});
+		$("#cbdrmMNG").click(function(){
+			window.location.href='/management.jsp?newsType=cbdrm';
+		});
+		$("#institutionMNG").click(function(){
+			window.location.href='/management.jsp?newsType=nstitution';
+		});
+	}
+	if ( page == "info" ){
+		$("#introIngo").click(function(){
+			window.location.href='/info.jsp?newsType=intro';
+		});
+		$("#adviceInfo").click(function(){
+			window.location.href='/info.jsp?newsType=advice';
+		});
+		$("#firstaidInfo").click(function(){
+			window.location.href='/info.jsp?newsType=firstaid';
+		});
+		$("#contactInfo").click(function(){
+			window.location.href='/info.jsp?newsType=contact';
+		});
+	}
+};
+
+function prepareDiagramPanels(){
+	var hoverPanels = new Array($("#dmMonitoringArea"),
+			$("#dmRiskArea"),
+			$("#dmPreparednessArea"),
+			$("#dmPreventionArea"),
+			$("#dmPredictiveArea"),
+			$("#dmDamageArea"),
+			$("#dmWarningArea"),
+			$("#dmRecoveryArea"),
+			$("#dmHazardArea"),
+			$("#dmReadinessArea"),
+			$("#dmResponseArea"));
+
+	$.each( hoverPanels, function( i, l ){	
+		$("#" + l.attr("id") + "Text").hide();
+		$("#" + l.attr("id") + "Text").addClass("diagramDescription");
+		l.hover(
+			function(){
+				console.log(" in - " + "#" + l.attr("id") + "Text");
+				$("#" + l.attr("id") + "Text").fadeIn(300);
+			},
+			function(){
+				console.log("out - " + "#" + l.attr("id") + "Text");
+				$("#" + l.attr("id") + "Text").fadeOut(300);
+		});
+	});
+	
 };

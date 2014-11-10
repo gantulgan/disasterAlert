@@ -25,7 +25,7 @@ div#background {
 }
 /*Profile LINKS*/
 div#headProtector {
-	margin-top: 48px;
+	margin-top: 28px;
 }
 div#hWrapper {
     background-image: url('/images/header.jpg');
@@ -108,7 +108,7 @@ div#contentBody {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-#contentBody img {
+#contentBody img.thumbnail {
 	width: 140px;
 	height: 140px;
 	margin: 10px auto;
@@ -116,9 +116,11 @@ div#contentBody {
 .col-md-6:hover,
 .col-md-6:focus {
 	border: 2px solid white;
+    opacity: 1;
 }
 .col-md-6 {
 	border: 2px solid #ccecf4;
+	opacity: 0.8;
 }
 div#content {
     background-color: #ccecf4;
@@ -198,3 +200,16 @@ div#footer ul li a:hover {
     background-color: black;
 }
 /*End==div*/
+
+div#location {
+	text-align: left;
+	margin: 0px auto;
+}
+#location a {
+	display: inline-block;
+	text-decoration: none;
+}
+#location a:hover,
+#location a:focus {
+	opacity: 0.7;
+}

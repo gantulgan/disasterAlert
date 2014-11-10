@@ -152,6 +152,7 @@ div.news_category_title
 #leftMenu li
 {
 	list-style: none;
+	text-align: left;
 }
 
 .dMSchemeContainer
@@ -167,11 +168,172 @@ div.news_category_title
 .absolutePos{
 	position: absolute;
 }
-#dmRiskArea
+.diagramDescription
 {
-	height: 80px;
-	width: 175px;
-	top: 80px;
-	left: 150px;
-	border: thick dashed blue;
+	background-color: #f5ef8f;
+	border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    padding: 10px 10px; 
+    font-size: small;
+}
+
+/* #dmRiskArea */
+/* { */
+/* 	height: 66px; */
+/* 	width: 129px; */
+/* 	top: 160px; */
+/* 	left: 126px; */
+/* } */
+#dmMonitoringArea
+{
+	height: 46px;
+	width: 105px;
+	top: 73px;
+	left: 130px;
+}
+#dmPreparednessArea
+{
+	height: 57px;
+	width: 125px;
+	top: 262px;
+	left: 113px;
+}
+#dmPreventionArea
+{
+	height: 58px;
+	width: 105px;
+	top: 166px;
+	left: 2px;
+}
+#dmPredictiveArea
+{
+	height: 51px;
+	width: 93px;
+	top: 169px;
+	left: 263px;
+}
+/* #dmDamageArea */
+/* { */
+/* 	height: 67px; */
+/* 	width: 135px; */
+/* 	top: 9px; */
+/* 	left: 258px; */
+/* } */
+/* #dmWarningArea */
+/* { */
+/* 	height: 51px; */
+/* 	width: 101px; */
+/* 	top: 307px; */
+/* 	left: 288px; */
+/* } */
+#dmRecoveryArea
+{
+	height: 57px;
+	width: 105px;
+	top: 76px;
+	left: 394px;
+}
+/* #dmHazardArea */
+/* { */
+/* 	height: 100px; */
+/* 	width: 101px; */
+/* 	top: 147px; */
+/* 	left: 404px; */
+/* } */
+#dmReadinessArea
+{
+	height: 33px;
+	width: 96px;
+	top: 256px;
+	left: 457px;
+}
+#dmResponseArea
+{
+	height: 52px;
+	width: 98px;
+	top: 132px;
+	left: 523px;
+}
+.dmOverArea:hover{
+	border: thin dashed blue;
+	bor
+}
+
+
+/* #dmRiskAreaText */
+/* { */
+/* 	height: 66px; */
+/* 	width: 129px; */
+/* 	top: 160px; */
+/* 	left: 126px; */
+/* } */
+#dmMonitoringAreaText
+{
+	height: 105px;
+	width: 219px;
+	top: 120px;
+	left: 78px;
+}
+#dmPreparednessAreaText
+{
+	height: 128px;
+	width: 224px;
+	top: 320px;
+	left: 52px;
+}
+#dmPreventionAreaText
+{
+	height: 130px;
+	width: 250px;
+	top: 230px;
+	left: 4px;
+}
+#dmPredictiveAreaText
+{
+	height: 90px;
+	width: 237px;
+	top: 220px;
+	left: 200px;
+}
+/* #dmDamageAreaText */
+/* { */
+/* 	height: 67px; */
+/* 	width: 135px; */
+/* 	top: 9px; */
+/* 	left: 258px; */
+/* } */
+/* #dmWarningAreaText */
+/* { */
+/* 	height: 51px; */
+/* 	width: 101px; */
+/* 	top: 307px; */
+/* 	left: 288px; */
+/* } */
+#dmRecoveryAreaText
+{
+	height: 58px;
+	width: 219px;
+	top: 135px;
+	left: 337px;
+}
+/* #dmHazardAreaText */
+/* { */
+/* 	height: 100px; */
+/* 	width: 101px; */
+/* 	top: 147px; */
+/* 	left: 404px; */
+/* } */
+#dmReadinessAreaText
+{
+	height: 58px;
+	width: 219px;
+	top: 290px;
+	left: 395px;
+}
+#dmResponseAreaText
+{
+	height: 50px;
+	width: 150px;
+	top: 185px;
+	left: 465px;
 }
