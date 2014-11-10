@@ -25,7 +25,7 @@ div#background {
 }
 /*Profile LINKS*/
 div#headProtector {
-	margin-top: 48px;
+	margin-top: 28px;
 }
 div#hWrapper {
     background-image: url('/images/header.jpg');
@@ -200,3 +200,16 @@ div#footer ul li a:hover {
     background-color: black;
 }
 /*End==div*/
+
+div#location {
+	text-align: left;
+	margin: 0px auto;
+}
+#location a {
+	display: inline-block;
+	text-decoration: none;
+}
+#location a:hover,
+#location a:focus {
+	opacity: 0.7;
+}

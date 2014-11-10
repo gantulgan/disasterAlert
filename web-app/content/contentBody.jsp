@@ -2,6 +2,7 @@
 
 <div class="container">
 <div id="contentBody" >
+<%-- <jsp:include page="/includes/location.jsp"></jsp:include> --%>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin: 0px 15px;">

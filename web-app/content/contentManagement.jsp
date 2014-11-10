@@ -2,6 +2,10 @@
 
 <div class="container">
 <div id="contentBody" >
+<div id="location" class="container">
+	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
+	<span class="label label-primary">Менежмент</span>
+</div>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin: 0px 15px;">
