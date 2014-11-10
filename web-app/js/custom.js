@@ -114,16 +114,16 @@ function loadLinkButtons(page){
 	}
 	if ( page == "management" ){
 		$("#strategyMNG").click(function(){
-			window.location.href='/content/content/disasterMgtDiagram_1.jsp';
+			window.location.href='/content/strategy/strategy.jsp?type=strategy';
 		});
 		$("#structureMNG").click(function(){
-			window.location.href='/management.jsp?type=structure';
+			window.location.href='/content/infrastructure/infrastructure.jsp?type=structure';
 		});
 		$("#cbdrmMNG").click(function(){
-			window.location.href='/management.jsp?type=cbdrm';
+			window.location.href='/content/cbdrm/cbdrm.jsp?type=cbdrm';
 		});
 		$("#institutionMNG").click(function(){
-			window.location.href='/management.jsp?type=institution';
+			window.location.href='/content/institution/institution.jsp?type=institution';
 		});
 	}
 	if ( page == "info" ){
