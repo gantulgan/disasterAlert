@@ -49,7 +49,7 @@
 				</li>
 				<li>
 				<a href="https://www.instagram.com"><img src="/images/icons/instagram.png" alt="instagram" style="width: 25px; height: 25px"></img></a>
-				<a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="/images/icons/youtube.png" alt="youtube" style="width: 25px; height: 25px"></img></a>
+				<a href="http://www.youtube.com/watch?v=rnHX-SJIvG0"><img src="/images/icons/youtube.png" alt="youtube" style="width: 25px; height: 25px"></img></a>
 				</li>
 				</ul>
 				<!-- <p>Утас: 7011-****</p> -->
