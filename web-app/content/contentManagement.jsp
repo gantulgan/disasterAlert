@@ -9,7 +9,7 @@
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin: 0px 15px;">
-        <div class="col-md-6" id="">
+        <div class="col-md-6" id="strategyMNG">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
 		          <img class="img-circle img-responsive" src="/images/thumbnail/abc.jpeg" alt="" >
@@ -20,7 +20,7 @@
 		        </div>
 		      	</div>
         </div>
-        <div class="col-md-6" id="">
+        <div class="col-md-6" id="structureMNG">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
 		          <img class="img-circle img-responsive" src="/images/thumbnail/capacity.jpeg" alt="">
@@ -35,7 +35,7 @@
 </div>
 <div id="contentBody">
 	<div class="row" style="margin: 0px 15px;">
-	    <div class="col-md-6" id="">
+	    <div class="col-md-6" id="cbdrmMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
 	        	<img class="img-circle img-responsive" src="/images/thumbnail/contrib.jpeg" alt="">
@@ -46,7 +46,7 @@
 	     	</div>
 	    	</div>
 	    </div>
-	    <div class="col-md-6" id="">
+	    <div class="col-md-6" id="institutionMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
 	          <img class="img-circle img-responsive" src="/images/thumbnail/building.jpeg" alt="">
@@ -59,5 +59,10 @@
 		</div>      	
 </div>
 <hr class="featurette-divider">
-</div>   
+</div>
+<script type="text/javascript">
+$(function(){
+	loadLinkButtons('management');
+});
+</script>      
 </div>
