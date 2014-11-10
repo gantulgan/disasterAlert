@@ -45,7 +45,7 @@
 	    <div class="col-md-6" id="linkContact">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	          <img class="img-circle img-responsive" src="/images/thumbnail/contrib.jpeg" alt="">
+	          <img class="img-circle img-responsive" src="/images/thumbnail/beach.jpeg" alt="">
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Мэдээлэл</h2>
