@@ -50,7 +50,7 @@
 <div class="container">
 	<div id="fBanner"></div>
 	<div id="footer">
-		<p>2014он.ЦахимУр &copy;.</p>
+		<p>2014он.Зохиогчийн эрхээр хамгаалагдсан&copy;.</p>
 		<ul>
 			<li><a href="">Нүүр</a></li>
 			<li><a href="">Нэвтрэх</a></li>

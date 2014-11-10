@@ -108,8 +108,14 @@ div#contentBody {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-.col-md-6:hover {
-	border: 2px solid white; 
+#contentBody img {
+	width: 140px;
+	height: 140px;
+	margin: 10px auto;
+}
+.col-md-6:hover,
+.col-md-6:focus {
+	border: 2px solid white;
 }
 div#content {
     background-color: #ccecf4;

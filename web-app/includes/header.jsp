@@ -46,32 +46,5 @@ function urlEMS()
   </div>
 </nav>
 <div id="headProtector">
+
 </div>
-<!-- <div class="container visible-lg visible-mid hidden-xs" >  
-	<div id="hWrapper" >
-	     <div id="header" >
-	        <h1>ҮЕРИЙН ЭРСДЛИЙН МЕНЕЖМЕНТ</h1>
-	             <h2>УЛААНБААТАР ХОТЫН ҮЕРИЙН ГАМШИГААС УРДЬЧИЛАН СЭРГИЙЛЭХ СИСТЕМ</h2>
-	         <div id="tabs">
-	           <ul>
-	             <li><a href="#tabs-1" onclick="urlHome()">Нүүр хуудас</a></li>
-	             <li><a href="#tabs-2">Мэдээ Мэдээлэл</a></li>
-	             <li><a href="#tabs-3" onclick="urlEMS()">Үерийн эрсдэлтэй бүсүүд</a></li>
-	           </ul>
-	           <div id="tabs-1">
-	           </div>
-	           <div id="tabs-2">
-	             <ul>
-	             <li><a href="">Шинэ Мэдээ</a></li>
-	             <li><a href="">Үерийн эрсдлийн менежмент</a></li>
-	             <li><a href="">Эрсдлийг бууруулах зөвлөмж</a></li>
-	             <li><a href="">Анхан шатны тусламж үзүүлэх</a></li>
-	             </ul>
-	           </div>
-	           <div id="tabs-3">
-	           </div>
-	         </div>
-	     </div>
-	 </div>
-	 <div id="hBanner"></div>
-</div> -->
