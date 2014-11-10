@@ -1,3 +1,4 @@
+<%@page import="com.tsahimur.disasterManagement.URLUtil"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 
 <div class="container">
@@ -5,7 +6,10 @@
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
 	<a href="/info.jsp"><span class="label label-primary">Мэдээлэл</span></a>
-	<a href=""><span class="label label-success">${param.newsType}</span></a>
+	<a href=""><span class="label label-success">
+	<%=
+	URLUtil.typeConvertor(request.getParameter("type"))
+	%></span></a>
 </div>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
@@ -13,7 +17,7 @@
         <div class="col-md-6" id="introIngo">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/UserControl.png" alt="" >
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/UserControl.png" alt="" >
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Танилцуулга</h2>
@@ -24,10 +28,10 @@
         <div class="col-md-6" id="adviceInfo">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/Help.png" alt="">
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/Help.png" alt="">
 		        </div>
 		        <div class="col-md-7">
-		          <h2 class="featurette-heading">зөвлөгөө</h2>
+		          <h2 class="featurette-heading">Зөвлөгөө</h2>
 		          <p class="lead">Үерийн эрсдэлээс хэрхэн сэргийлэх вэ?</p>
 		        </div>
 		      	</div>
@@ -39,7 +43,7 @@
 	    <div class="col-md-6" id="firstaidInfo">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	        	<img class="img-circle img-responsive" src="/images/thumbnail/Security.png" alt="">
+	        	<img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/Security.png" alt="">
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading">Анхан шатны тусламж</h2>
@@ -50,7 +54,7 @@
 	    <div class="col-md-6" id="contactInfo">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	          <img class="img-circle img-responsive" src="/images/thumbnail/Picture.png" alt="">
+	          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/Picture.png" alt="">
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Холбоо барих</h2>

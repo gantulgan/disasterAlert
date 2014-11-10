@@ -101,44 +101,44 @@ function loadLinkButtons(page){
 	}
 	if ( page == "news" ){
 		$("#newNews").click(function(){
-			window.location.href='/news.jsp?newsType=new';
+			window.location.href='/news.jsp?type=new';
 		});
 		$("#emergencyNews").click(function(){
-			window.location.href='/news.jsp?newsType=emergency';
+			window.location.href='/news.jsp?type=emergency';
 		});
 		$("#topNews").click(function(){
-			window.location.href='/news.jsp?newsType=top';
+			window.location.href='/news.jsp?type=top';
 		});
 		$("#popularNews").click(function(){
-			window.location.href='/news.jsp?newsType=popular';
+			window.location.href='/news.jsp?type=popular';
 		});
 	}
 	if ( page == "management" ){
 		$("#strategyMNG").click(function(){
-			window.location.href='/management.jsp?newsType=strategy';
+			window.location.href='/management.jsp?type=strategy';
 		});
 		$("#structureMNG").click(function(){
-			window.location.href='/management.jsp?newsType=structure';
+			window.location.href='/management.jsp?type=structure';
 		});
 		$("#cbdrmMNG").click(function(){
-			window.location.href='/management.jsp?newsType=cbdrm';
+			window.location.href='/management.jsp?type=cbdrm';
 		});
 		$("#institutionMNG").click(function(){
-			window.location.href='/management.jsp?newsType=nstitution';
+			window.location.href='/management.jsp?type=institution';
 		});
 	}
 	if ( page == "info" ){
 		$("#introIngo").click(function(){
-			window.location.href='/info.jsp?newsType=intro';
+			window.location.href='/info.jsp?type=intro';
 		});
 		$("#adviceInfo").click(function(){
-			window.location.href='/info.jsp?newsType=advice';
+			window.location.href='/info.jsp?type=advice';
 		});
 		$("#firstaidInfo").click(function(){
-			window.location.href='/info.jsp?newsType=firstaid';
+			window.location.href='/info.jsp?type=firstaid';
 		});
 		$("#contactInfo").click(function(){
-			window.location.href='/info.jsp?newsType=contact';
+			window.location.href='/info.jsp?type=contact';
 		});
 	}
 };

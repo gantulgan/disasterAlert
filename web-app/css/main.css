@@ -108,7 +108,7 @@ div#contentBody {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-#contentBody img {
+#contentBody img#thumbnail {
 	width: 140px;
 	height: 140px;
 	margin: 10px auto;

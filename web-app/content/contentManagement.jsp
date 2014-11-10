@@ -1,3 +1,4 @@
+<%@page import="com.tsahimur.disasterManagement.URLUtil"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 
 <div class="container">
@@ -5,7 +6,10 @@
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
 	<a href="/management.jsp"><span class="label label-primary">Менежмент</span></a>
-	<a href=""><span class="label label-success">${param.newsType}</span></a>
+	<a href=""><span class="label label-success">
+	<%=
+	URLUtil.typeConvertor(request.getParameter("type"))
+	%></span></a>
 </div>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
@@ -13,7 +17,7 @@
         <div class="col-md-6" id="strategyMNG">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/abc.jpeg" alt="" >
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/abc.jpeg" alt="" >
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Стратеги</h2>
@@ -24,7 +28,7 @@
         <div class="col-md-6" id="structureMNG">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/capacity.jpeg" alt="">
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/capacity.jpeg" alt="">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Дэд бүтэц</h2>
@@ -39,7 +43,7 @@
 	    <div class="col-md-6" id="cbdrmMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	        	<img class="img-circle img-responsive" src="/images/thumbnail/contrib.jpeg" alt="">
+	        	<img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/contrib.jpeg" alt="">
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></h2>
@@ -50,7 +54,7 @@
 	    <div class="col-md-6" id="institutionMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	          <img class="img-circle img-responsive" src="/images/thumbnail/building.jpeg" alt="">
+	          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/building.jpeg" alt="">
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Институци</h2>
