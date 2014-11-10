@@ -4,7 +4,8 @@
 <div id="contentBody" >
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<span class="label label-primary">Мэдээ</span>
+	<a href="/news.jsp"><span class="label label-primary">Мэдээ</span></a>
+	<a href=""><span class="label label-success">${param.newsType}</span></a>
 </div>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->

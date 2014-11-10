@@ -9,7 +9,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
-<script src="${pageContext.request.contextPath}/js/custom.js"></script> 
+<script src="${pageContext.request.contextPath}/js/custom.js" charset="UTF-8"></script> 
 
 <script src="${pageContext.request.contextPath}/js/ie-emulation-modes-warning.js"></script>
 <!-- Bootstrap core JavaScript
