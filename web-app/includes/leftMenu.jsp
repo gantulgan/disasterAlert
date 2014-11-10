@@ -15,6 +15,7 @@
 			<li><span><a href="/content/institution/institution.jsp?type=institution">Институци</a></span>
 			</li>
 		</ul>
+		
 	</li>
 	<li><span><a href="/mapper.jsp">Газрын зураг</a></span></li>
 	<li><span><a href="#">Холбоо барих</a></span></li>
