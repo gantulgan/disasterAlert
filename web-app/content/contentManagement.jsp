@@ -1,29 +1,38 @@
+<%@page import="com.tsahimur.disasterManagement.URLUtil"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 
 <div class="container">
 <div id="contentBody" >
+<div id="location" class="container">
+	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
+	<a href="/management.jsp"><span class="label label-primary">Менежмент</span></a>
+	<a href=""><span class="label label-success">
+	<%=
+	URLUtil.typeConvertor(request.getParameter("type"))
+	%></span></a>
+</div>
 <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin: 0px 15px;">
-        <div class="col-md-6" id="">
+        <div class="col-md-6" id="strategyMNG">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/abc.jpeg" alt="" >
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/abc.jpeg" alt="" >
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Стратеги</h2>
-		          <p class="lead">Үерийн эрсдлийн менежментийн стратеги боловсруулалт.</p>
+		          <p class="lead">Үерийн эрсдэлийн менежментийн стратеги боловсруулалт.</p>
 		        </div>
 		      	</div>
         </div>
-        <div class="col-md-6" id="">
+        <div class="col-md-6" id="structureMNG">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" src="/images/thumbnail/capacity.jpeg" alt="">
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/capacity.jpeg" alt="">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Дэд бүтэц</h2>
-		          <p class="lead">Үерийн эрсдлийн менежментийн дэд бүтэц.</p>
+		          <p class="lead">Үерийн эрсдэлийн менежментийн дэд бүтэц.</p>
 		        </div>
 		      	</div>
 		</div>      	
@@ -31,29 +40,34 @@
 </div>
 <div id="contentBody">
 	<div class="row" style="margin: 0px 15px;">
-	    <div class="col-md-6" id="">
+	    <div class="col-md-6" id="cbdrmMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	        	<img class="img-circle img-responsive" src="/images/thumbnail/contrib.jpeg" alt="">
+	        	<img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/contrib.jpeg" alt="">
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></h2>
-		        <p class="lead">Иргэдэд суурилсан гамшигийн эрсдлийн менежмент гэж юу вэ?</p>
+		        <p class="lead">Иргэдэд суурилсан гамшигийн эрсдэлийн менежмент гэж юу вэ?</p>
 	     	</div>
 	    	</div>
 	    </div>
-	    <div class="col-md-6" id="">
+	    <div class="col-md-6" id="institutionMNG">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	          <img class="img-circle img-responsive" src="/images/thumbnail/building.jpeg" alt="">
+	          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/building.jpeg" alt="">
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Институци</h2>
-	          <p class="lead">Үерийн Эрсдлийн менежментийн институци.</p>
+	          <p class="lead">Үерийн эрсдэлийн менежментийн институци.</p>
 	        </div>
 	      	</div>
 		</div>      	
 </div>
 <hr class="featurette-divider">
-</div>   
+</div>
+<script type="text/javascript">
+$(function(){
+	loadLinkButtons('management');
+});
+</script>      
 </div>

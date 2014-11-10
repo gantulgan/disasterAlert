@@ -8,8 +8,8 @@
 			<h5>Нүүр хуудас</h5>
 			<div id="sitemap">
 				<ul>
-					<li><a href="">Нүүр</a></li>
-					<li><a href="">Нэвтрэх</a></li>
+					<li><a href="/home.jsp">Нүүр</a></li>
+					<li><a href="/login.jsp">Нэвтрэх</a></li>
 				</ul>
 			</div>
 		</div>
@@ -17,21 +17,21 @@
 			<h5>Мэдээ, Мэдээлэл</h5>
 			<div id="sitemap">
 				<ul>
-					<li><a href="">Шинэ Мэдээ</a></li>
-					<li><a href="">Шуурхай Мэдээ</a></li>
-					<li><a href="">Зөвлөмж</a></li>
-					<li><a href="">Анхан шатны тусламж</a></li>
+					<li><a href="/news.jsp">Шинэ Мэдээ</a></li>
+					<li><a href="/news.jsp">Шуурхай Мэдээ</a></li>
+					<li><a href="/info.jsp">Зөвлөмж</a></li>
+					<li><a href="/info.jsp">Анхан шатны тусламж</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="col-md-3 col-sm-6">
-			<h5>Үерийн эрсдлийн менежмент</h5>
+			<h5>Үерийн эрсдэлийн менежмент</h5>
 			<div id="sitemap">
 				<ul>
-					<li><a href="">Стратеги</a></li>
-					<li><a href="">Дэд бүтэц</a></li>
-					<li><a href=""><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></a></li>
-					<li><a href="">Институци</a></li>
+					<li><a href="/management.jsp">Стратеги</a></li>
+					<li><a href="/management.jsp">Дэд бүтэц</a></li>
+					<li><a href="/management.jsp"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></a></li>
+					<li><a href="/management.jsp">Институци</a></li>
 				</ul>
 			</div>
 		</div>
@@ -41,15 +41,15 @@
 				<ul>
 				<li>
 				<a href=""><img src="/images/icons/email.png" alt="email" style="width: 25px; height: 25px"></img></a>
-				<a href=""><img src="/images/icons/facebook.png" alt="facebook" style="width: 25px; height: 25px"></img></a>
+				<a href="https://www.facebook.com"><img src="/images/icons/facebook.png" alt="facebook" style="width: 25px; height: 25px"></img></a>
 				</li>
 				<li>
-				<a href=""><img src="/images/icons/googleplus.png" alt="google+" style="width: 25px; height: 25px"></img></a>
-				<a href=""><img src="/images/icons/twitter.png" alt="twitter" style="width: 25px; height: 25px"></img></a>
+				<a href="https://plus.google.com/"><img src="/images/icons/googleplus.png" alt="google+" style="width: 25px; height: 25px"></img></a>
+				<a href="https://www.twitter.com"><img src="/images/icons/twitter.png" alt="twitter" style="width: 25px; height: 25px"></img></a>
 				</li>
 				<li>
-				<a href=""><img src="/images/icons/instagram.png" alt="instagram" style="width: 25px; height: 25px"></img></a>
-				<a href=""><img src="/images/icons/youtube.png" alt="youtube" style="width: 25px; height: 25px"></img></a>
+				<a href="https://www.instagram.com"><img src="/images/icons/instagram.png" alt="instagram" style="width: 25px; height: 25px"></img></a>
+				<a href="http://www.youtube.com/watch?v=rnHX-SJIvG0"><img src="/images/icons/youtube.png" alt="youtube" style="width: 25px; height: 25px"></img></a>
 				</li>
 				</ul>
 				<!-- <p>Утас: 7011-****</p> -->

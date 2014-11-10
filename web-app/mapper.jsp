@@ -13,9 +13,21 @@
 </head>
 <body>
     <div id="background">
-		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<jsp:include page="/mapper/mapper_body.jsp"/>
-		<jsp:include page="/includes/footer.jsp"></jsp:include>
-	</div>	
+    <jsp:include page="/includes/header.jsp"></jsp:include>
+	    <div id="headProtector">
+	    <div class="container">
+	    <div id="contentBody">
+	    <hr class="featurette-divider">
+	    <div id="location" class="container">
+		<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
+		<span class="label label-primary">Газрын зураг</span>
+		</div>
+	    <hr class="featurette-divider">
+			<jsp:include page="/mapper/mapper_body.jsp"/>
+		</div>
+		</div>	
+		</div>	
+	<jsp:include page="/includes/footer.jsp"></jsp:include>
+	</div>
 </body>
 </html>
