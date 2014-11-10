@@ -87,16 +87,16 @@ function backfullScr(){
 function loadLinkButtons(page){
 	if ( page == "home" ){
 		$("#linkFrontNews").click(function(){
-			window.location.href='/News.jsp';
+			window.location.href='/news.jsp';
 		});
 		$("#linkDManagement").click(function(){
-			window.location.href="/Management.jsp";
+			window.location.href="/management.jsp";
 		});
 		$("#linkMapper").click(function(){
 			window.location.href="/mapper.jsp";
 		});
 		$("#linkContact").click(function(){
-			window.location.href="/Info.jsp";
+			window.location.href="/info.jsp";
 		});
 	}
 };

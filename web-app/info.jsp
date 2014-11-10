@@ -9,12 +9,6 @@
 	<meta name="author" content="">
 <title>Нүүр</title>
 <jsp:include page="/includes/links.jsp"></jsp:include>
-<!-- <script>
-	$(function() {
-		loadTab()
-    });
-</script>
- -->
 </head>
 <body>
     <div id="background">

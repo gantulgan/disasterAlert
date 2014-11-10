@@ -23,7 +23,7 @@
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">зөвлөгөө</h2>
-		          <p class="lead">Үерийн эрсдлээс хэрхэн сэргийлэх вэ?</p>
+		          <p class="lead">Үерийн эрсдэлээс хэрхэн сэргийлэх вэ?</p>
 		        </div>
 		      	</div>
 		</div>      	
