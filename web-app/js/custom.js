@@ -84,8 +84,19 @@ function backfullScr(){
 	$("#map_frame").animate({"width": "714px", "height": "580px" }, "slow");
 }
 
-function loadButtons(page){
+function loadLinkButtons(page){
 	if ( page == "home" ){
-		$("");
+		$("#linkFrontNews").click(function(){
+			window.location.href='/News.jsp';
+		});
+		$("#linkDManagement").click(function(){
+			window.location.href="/Management.jsp";
+		});
+		$("#linkMapper").click(function(){
+			window.location.href="/mapper.jsp";
+		});
+		$("#linkContact").click(function(){
+			window.location.href="/Info.jsp";
+		});
 	}
 };

@@ -55,5 +55,10 @@
 		</div>      	
 </div>
 <hr class="featurette-divider">
-</div>   
+</div>
+<script type="text/javascript">
+$(function(){
+	loadLinkButtons('home');
+});
+</script>   
 </div>
