@@ -114,7 +114,7 @@ function loadLinkButtons(page){
 	}
 	if ( page == "management" ){
 		$("#strategyMNG").click(function(){
-			window.location.href='/management.jsp?type=strategy';
+			window.location.href='/content/content/disasterMgtDiagram_1.jsp';
 		});
 		$("#structureMNG").click(function(){
 			window.location.href='/management.jsp?type=structure';

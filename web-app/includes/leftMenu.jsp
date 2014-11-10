@@ -2,17 +2,17 @@
 <div class="leftMenu">
 <ul id="leftMenu">
 	<li><span><a href="/news.jsp">Мэдээ</a></span></li>
-	<li><span><a href="/management.jsp">Гамшгийн менежмент</span></a>
+	<li><span><a href="/management.jsp">Гамшгийн менежмент</a></span>
 		<ul>
-			<li><span><a href="/management.jsp?type=strategy">Стратеги</a></span>
+			<li><span><a href="/content/strategy/strategy.jsp?type=strategy">Стратеги</a></span>
 				<ul>
-					<li><span><a href="#">Зарчим</a></span></li>
-					<li><span><a href="#">Диаграм</a></span></li>
+					<li><span><a href="/content/strategy/principle.jsp">Зарчим</a></span></li>
+					<li><span><a href="/content/strategy/diagram.jsp">Диаграм</a></span></li>
 				</ul>
 			</li>
-			<li><span><a href="#">Дэд бүтэц</a></span></li>
-			<li><span><a href="#">CBDRM</a></span></li>
-			<li><span><a href="#">Инститүц</a></span>
+			<li><span><a href="/content/insfrastructure/insfrastructure.jsp?type=structure">Дэд бүтэц</a></span></li>
+			<li><span><a href="/content/cbdrm/cbdrm.jsp?type=cbdrm">CBDRM</a></span></li>
+			<li><span><a href="/content/institution/institution.jsp?type=institution">Институци</a></span>
 			</li>
 		</ul>
 	</li>

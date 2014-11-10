@@ -7,16 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-<title>Нүүр</title>
+<title>Стратеги</title>
 <jsp:include page="/includes/links.jsp"></jsp:include>
-</script>
- -->
 </head>
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<%-- <jsp:include page="/home_body.jsp"></jsp:include> --%>
-		<jsp:include page="/content/dmDiagram.jsp"></jsp:include>
+		<jsp:include page="/content/strategy/strategy_body.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>
 	</div>	
 </body>
