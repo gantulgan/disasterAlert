@@ -9,7 +9,7 @@
         <div class="col-md-6" id="linkFrontNews">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/manage2.jpeg" alt="" >
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/news.png" alt="" >
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Мэдээ</h2>
@@ -20,7 +20,7 @@
         <div class="col-md-6" id="linkDManagement">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/manage1.jpeg" alt="">
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/management.jpg" alt="">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Менежмент</h2>
@@ -35,7 +35,7 @@
 	    <div class="col-md-6" id="linkMapper">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	        	<img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/map.jpeg" alt="">
+	        	<img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/map.jpg" alt="">
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading">Газрын зураг</h2>
@@ -46,7 +46,7 @@
 	    <div class="col-md-6" id="linkContact">
 	    	<div class="row featurette">
 			<div class="col-md-5 hidden-sm hidden-xs">
-	          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/beach.jpeg" alt="">
+	          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/abc.jpeg" alt="">
 	        </div>
 	        <div class="col-md-7">
 	          <h2 class="featurette-heading">Мэдээлэл</h2>
