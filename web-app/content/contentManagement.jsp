@@ -17,7 +17,7 @@
         <div class="col-md-6" id="strategyMNG">
                 <div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/abc.jpeg" alt="" >
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/strategy.jpg" alt="" >
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Стратеги</h2>
@@ -28,7 +28,7 @@
         <div class="col-md-6" id="structureMNG">
           		<div class="row featurette">
 				<div class="col-md-5 hidden-sm hidden-xs">
-		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/capacity.jpeg" alt="">
+		          <img class="img-circle img-responsive" id="thumbnail" src="/images/thumbnail/infrastructure.jpg" alt="">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Дэд бүтэц</h2>
