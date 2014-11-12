@@ -17,7 +17,8 @@
 		$("map").hide();
 		$("map_loading").show();
 		loadMap();
-
 		loadTab();
+		
+		prepareFullScreen();
 	});
 </script>

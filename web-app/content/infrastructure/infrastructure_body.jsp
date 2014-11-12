@@ -13,16 +13,13 @@
 	URLUtil.typeConvertor(request.getParameter("type"))
 	%></span></a>
 </div>
+<hr class="featurette-divider"/>
 <div class="row">
 <div class="col-md-3" >
 <jsp:include page="${pageContext.request.contextPath}/includes/leftMenu.jsp"></jsp:include>
 </div>
 <div id="dMSchemeContainer" class="col-md-9">
-
-<div class="dMScheme  responsive">
-	<img src="${pageContext.request.contextPath}/images/diagram.jpg">
-</div>
-
+<h4>Дэд бүтэц</h4>
 
 </div>
 </div>

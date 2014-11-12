@@ -13,7 +13,7 @@
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<jsp:include page="/content/instution/instution_body.jsp"></jsp:include>
+		<jsp:include page="/content/institution/institution_body.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>
 	</div>	
 </body>

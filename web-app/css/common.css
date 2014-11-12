@@ -337,3 +337,14 @@ div.news_category_title
 	top: 185px;
 	left: 465px;
 }
+.headerLogo
+{
+	height: 50px;
+	width: 50px;
+}
+.headerWarning
+{
+	background-color: white;
+	color: red;
+	font-style: normal;
+}

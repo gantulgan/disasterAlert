@@ -51,7 +51,8 @@
 					<input id="uzegdel" type="checkbox" name="uzegdel" /> 
 					<label for="uzegdel">Үзэгдэл</label></li>
 			</ul>
-			
+			<br/>
+			<button class="fullscreenButton">fullscreen</button>
 
 			</div>
 

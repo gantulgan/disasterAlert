@@ -170,3 +170,13 @@ function prepareDiagramPanels(){
 	});
 	
 };
+
+function prepareFullScreen(){
+	$(".fullscreenButton").click(
+		function(){
+			newwindow = window.open('/mapper/fullscreenmap.jsp','name','height='+$(window).height()+',width='+$(window).width()+"'");
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+	);
+};

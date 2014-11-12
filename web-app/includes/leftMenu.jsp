@@ -10,7 +10,7 @@
 					<li><span><a href="/content/strategy/diagram.jsp">Диаграм</a></span></li>
 				</ul>
 			</li>
-			<li><span><a href="/content/insfrastructure/insfrastructure.jsp?type=structure">Дэд бүтэц</a></span></li>
+			<li><span><a href="/content/infrastructure/infrastructure.jsp?type=structure">Дэд бүтэц</a></span></li>
 			<li><span><a href="/content/cbdrm/cbdrm.jsp?type=cbdrm">CBDRM</a></span></li>
 			<li><span><a href="/content/institution/institution.jsp?type=institution">Институци</a></span>
 			</li>
