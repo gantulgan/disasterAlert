@@ -65,7 +65,7 @@
 		<ul>
 			<li><a href="">Нүүр</a></li>
 			<li><a href="">Нэвтрэх</a></li>
-			<li><a href="">Холбоо барих</a></li>
+			<li><a href="">Холбoгдох</a></li>
 		</ul>
 	</div>
 </div>

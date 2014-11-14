@@ -25,14 +25,23 @@ div#background {
 }
 /*Profile LINKS*/
 div#headProtector {
-	margin-top: 28px;
+	margin-top: 48px;
 }
-div#hWrapper {
+/* div#hWrapper {
     background-image: url('/images/header.jpg');
     margin-top: 8px;
     padding-top: 5px;
     z-index: 909;
+} */
+.navbar-brand {
+	display: inline-block;
 }
+.navbar-brand img{
+	opacity: 0.8;
+}
+.navbar-brand img:hover {
+	opacity: 1;
+} 
 div#profile a {
 	display: inline-block;
 	padding: 10px 10px;
@@ -43,7 +52,7 @@ div#profile a:hover, a:focus {
     color: white;
 	text-decoration: none;
 }
-div#tabs {
+/* div#tabs {
     padding:  0px;
     margin:  0px auto;
 }
@@ -69,7 +78,7 @@ div#tabs ul li a {
 div#tabs ul li a:hover {
     color: white;
 
-}
+} */
 /*THE END*/
 /*header*/
 div#header {

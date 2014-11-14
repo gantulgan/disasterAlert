@@ -339,8 +339,10 @@ div.news_category_title
 }
 .headerLogo
 {
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
+	margin: -5px 0px;
+	display: inline-block;
 }
 .headerWarning
 {

@@ -9,10 +9,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><abbr title="Улаанбаатар Хотын Гамшигаас Урьдчилан Сэргийлэх Систем">УХГУСС</abbr></a>
-      <img alt="Улаанбаатар хотын захирагчийн алба"  title="Улаанбаатар хотын захирагчийн алба" src="${pageContext.request.contextPath}/images/ub_logo.jpg" class="headerLogo"/>
-      <img alt="Онцгой байдйьн алба" title="Онцгой байдльн алба" src="${pageContext.request.contextPath}/images/ontsgoi.jpeg" class="headerLogo" />
-      <img alt="Дэлхийн банк" title="Дэлхийн банк" src="${pageContext.request.contextPath}/images/worldbank.jpeg" class="headerLogo" />
+      <a class="navbar-brand" href="/home.jsp">
+      	<abbr title="Улаанбаатар Хотын Гамшигаас Урьдчилан Сэргийлэх Систем">УХГУСС</abbr>
+      </a>
+      <div class="hidden-xs" style="display: inline-block;">
+	      <a class="navbar-brand" href="http://www.ubservice.mn/">
+	      	<img  class="headerLogo" alt="Улаанбаатар хотын захирагчийн алба"  title="Улаанбаатар хотын захирагчийн алба" src="${pageContext.request.contextPath}/images/icons/ub_logo.png"/>
+	      </a>
+	      <a class="navbar-brand" href="http://nema.gov.mn/">
+	      	<img  class="headerLogo" alt="Онцгой байдлынн ерөнхий газар" title="Онцгой байдлынн ерөнхий газар" src="${pageContext.request.contextPath}/images/icons/ontsgoi.png" />
+	      </a>
+	      <a class="navbar-brand" href="http://www.worldbank.org/">
+	      	<img  class="headerLogo" alt="Дэлхийн банк" title="Дэлхийн банк" src="${pageContext.request.contextPath}/images/icons/worldbank.png"/>
+	      </a>
+      </div>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
     <div id="profile">
