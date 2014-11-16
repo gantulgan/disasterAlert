@@ -2,11 +2,13 @@
 <%@page import="com.sun.jndi.toolkit.url.UrlUtil"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <jsp:include page="${pageContext.request.contextPath}/includes/links.jsp"></jsp:include>
+<div id="headProtector">
+<div class="container">
 <div id="contentBody" >
 <hr class="featurette-divider"/>
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<a href="/news.jsp"><span class="label label-primary">Мэдээ</span></a>
+	<a href="/info.jsp"><span class="label label-primary">Мэдээлэл</span></a>
 	<a href=""><span class="label label-success">
 	<%=
 	URLUtil.typeConvertor(request.getParameter("type"))
@@ -22,9 +24,14 @@
 <div id="dMSchemeContainer" class="col-md-9">
 
 <div class="responsive" style="text-align: left;">
-	<div ><p> <iframe width="640" height="480" src="//www.youtube.com/embed/qypgvGONOzs"></iframe><br />
-<iframe width="640" height="480" src="//www.youtube.com/embed/jiQZNf5Z1f8"></iframe></p></div>
-	
+	<ul>
+		<p>Холбогдох мэдээлэлүүдийг доорх хаягуудаар орж авна уу.</p>
+		<li><a href="http://www.ubservice.mn/" >Улаанбаатар хотын захирагчийн алба</a></li>
+		<li><a href="http://nema.gov.mn/" >Онцгой байдлын ерөнхий газар</a></li>
+		<li><a href="http://www.worldbank.org/" >Дэлхийн банк</a></li>
+	</ul>
+</div>
+</div>
 </div>
 </div>
 </div>

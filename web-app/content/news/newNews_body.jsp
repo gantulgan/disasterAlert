@@ -8,7 +8,7 @@
 <hr class="featurette-divider"/>
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<a href="/info.jsp"><span class="label label-primary">Мэдээ</span></a>
+	<a href="/news.jsp"><span class="label label-primary">Мэдээ</span></a>
 	<a href=""><span class="label label-success">
 	<%=
 	URLUtil.typeConvertor(request.getParameter("type"))

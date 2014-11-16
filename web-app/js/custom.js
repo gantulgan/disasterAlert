@@ -106,10 +106,10 @@ function loadLinkButtons(page){
 			window.location.href='/content/news/emergencyNews.jsp?type=emergency';
 		});
 		$("#topNews").click(function(){
-			window.location.href='/news.jsp?type=top';
+			window.location.href='/content/news/newNews.jsp?type=top';
 		});
 		$("#popularNews").click(function(){
-			window.location.href='/news.jsp?type=popular';
+			window.location.href='/content/news/emergencyNews.jsp?type=popular';
 		});
 	}
 	if ( page == "management" ){
@@ -128,16 +128,16 @@ function loadLinkButtons(page){
 	}
 	if ( page == "info" ){
 		$("#introIngo").click(function(){
-			window.location.href='/info.jsp?type=intro';
+			window.location.href='/content/info/info.jsp?type=info';
 		});
 		$("#adviceInfo").click(function(){
-			window.location.href='/info.jsp?type=advice';
+			window.location.href='/content/info/guidance.jsp?type=guidance';
 		});
 		$("#firstaidInfo").click(function(){
-			window.location.href='/info.jsp?type=firstaid';
+			window.location.href='/content/info/firstaid.jsp?type=firstaid';
 		});
 		$("#contactInfo").click(function(){
-			window.location.href='/info.jsp?type=contact';
+			window.location.href='/content/info/links.jsp?type=contact';
 		});
 	}
 };
