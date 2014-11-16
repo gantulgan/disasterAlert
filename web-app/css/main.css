@@ -1,4 +1,7 @@
 /*Start==Main Body*/
+.col-lg-5 p {
+	margin-left: 20px;
+}
 body {
     font: 76% arial,sans-serif;
     text-align:center;

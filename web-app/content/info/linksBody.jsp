@@ -24,8 +24,8 @@
 <div id="dMSchemeContainer" class="col-md-9">
 
 <div class="responsive" style="text-align: left;">
+	<p>Холбогдох мэдээлэлүүдийг доорх хаягуудаар орж авна уу.</p>
 	<ul>
-		<p>Холбогдох мэдээлэлүүдийг доорх хаягуудаар орж авна уу.</p>
 		<li><a href="http://www.ubservice.mn/" >Улаанбаатар хотын захирагчийн алба</a></li>
 		<li><a href="http://nema.gov.mn/" >Онцгой байдлын ерөнхий газар</a></li>
 		<li><a href="http://www.worldbank.org/" >Дэлхийн банк</a></li>
