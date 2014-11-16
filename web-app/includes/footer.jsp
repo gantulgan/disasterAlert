@@ -17,10 +17,10 @@
 			<h5>Мэдээ, Мэдээлэл</h5>
 			<div id="sitemap">
 				<ul>
-					<li><a href="/news.jsp">Шинэ Мэдээ</a></li>
-					<li><a href="/news.jsp">Шуурхай Мэдээ</a></li>
-					<li><a href="/info.jsp">Зөвлөмж</a></li>
-					<li><a href="/info.jsp">Анхан шатны тусламж</a></li>
+					<li><a href="/content/news/newNews.jsp">Шинэ Мэдээ</a></li>
+					<li><a href="/content/news/emergencyNews.jsp">Шуурхай Мэдээ</a></li>
+					<li><a href="/content/info/guidance.jsp">Зөвлөмж</a></li>
+					<li><a href="/content/info/info.jsp">Анхан шатны тусламж</a></li>
 				</ul>
 			</div>
 		</div>
@@ -28,10 +28,10 @@
 			<h5>Үерийн эрсдэлийн менежмент</h5>
 			<div id="sitemap">
 				<ul>
-					<li><a href="/management.jsp">Стратеги</a></li>
-					<li><a href="/management.jsp">Дэд бүтэц</a></li>
-					<li><a href="/management.jsp"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></a></li>
-					<li><a href="/management.jsp">Институци</a></li>
+					<li><a href="/content/strategy/strategy.jsp">Стратеги</a></li>
+					<li><a href="/content/infrastructure/infrastructure.jsp">Дэд бүтэц</a></li>
+					<li><a href="/content/cbdrm/cbdrm.jsp"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></a></li>
+					<li><a href="/content/institution/institution.jsp">Институци</a></li>
 				</ul>
 			</div>
 		</div>
