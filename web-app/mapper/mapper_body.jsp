@@ -1,6 +1,30 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+<div class="">
+	<div class="row" id="mapMenu">
+		<div class="col-xs-6 mapTopMenu mapTopDistrictMenu" id="district_control_select">ДҮҮРЭГ</div>
+		<div class="col-xs-6 mapTopMenu mapTopBasinMenu" id="basin_control_select">АЙ САВ		
+		</div>
+	</div>
+	<div class="row"  id="mapMenu">
+		<div class="col-md-2 mapSubMenu" id="duuregBGD">Баянгол</div>
+		<div class="col-md-2 mapSubMenu" id="duuregBZD">Баянзүрх</div>
+		<div class="col-md-2 mapSubMenu" id="duuregCHD">Чингэлтэй</div>
+		<div class="col-md-2 mapSubMenu" id="duuregHUD">Хан-Уул</div>
+		<div class="col-md-2 mapSubMenu" id="duuregSHD">Сонгино Хайрхан</div>
+		<div class="col-md-2 mapSubMenu" id="duuregSBD">Сүхбаатар</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<jsp:include page="/mapper/mapper_controller.jsp"></jsp:include>
+		</div>
+		<div class="col-md-9">	
+			<jsp:include page="/mapper/mapper_view.jsp"></jsp:include>
+		</div>
+	</div>
+	</div>
+	<!-- 
 	<div class="mapper_area">
 	
 	<div class="row-fluid">
@@ -77,7 +101,7 @@
 			</div>
 		</div>
 	</div>
-
+ -->
 	
 	<div class="row">
 	<div class="col-md-3" style="padding-right: 0">
