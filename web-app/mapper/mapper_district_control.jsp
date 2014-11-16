@@ -24,7 +24,9 @@
 					<label for="hohirliinHuree">Risk</label></li>
 			</ul>
 			<br/>
-			<button class="fullscreenButton">fullscreen</button>
+			<br/>
+			<br/>
+			<button  type="button" class="btn btn-primary fullscreenButton">Fullscreen</button>
 
 			</div>
 

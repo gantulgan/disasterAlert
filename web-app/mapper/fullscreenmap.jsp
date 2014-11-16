@@ -8,13 +8,28 @@
 <jsp:include page="/includes/links.jsp"></jsp:include>
 <script type="text/javascript">
 	$(function() {
+		var url = ${param.url};
+		console.log(url);
 		$("map").hide();
 		$("map_loading").show();
-		loadMap();
+
+		$('#map_frame').load(function(){
+			$(".map_loading").hide();
+		    $("#map_frame").show();
+		});
+		
 	});
 </script>    
 </head>
 <body>
-<jsp:include page="${pageContext.request.contextPath}/mapper/mapper_view.jsp"></jsp:include>
+<div class="map_loading">
+	<p>
+		<img alt="" src="/images/loading3.gif" /><br /> Газрын зургийг уншиж
+		байна... Түр хүлээнэ үү.
+	</p>
+</div>
+<div id="map">
+	<iframe id="map_frame" class="maps" style="border: none;" src="${param.url}"></iframe>
+</div>
 </body>
 </html>

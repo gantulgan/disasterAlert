@@ -13,10 +13,26 @@ function loadMap(){
 		$(".map_loading_bgd").hide();
 	    $("#map_frame_bgd").show();
 	});
-	
+
 	$('#map_frame_bzd').load(function(){
 		$(".map_loading_bzd").hide();
 	    $("#map_frame_bzd").show();
+	});
+	$('#map_frame_chd').load(function(){
+		$(".map_loading_chd").hide();
+	    $("#map_frame_chd").show();
+	});
+	$('#map_frame_hud').load(function(){
+		$(".map_loading_hud").hide();
+	    $("#map_frame_hud").show();
+	});
+	$('#map_frame_shd').load(function(){
+		$(".map_loading_shd").hide();
+	    $("#map_frame_shd").show();
+	});
+	$('#map_frame_sbd').load(function(){
+		$(".map_loading_sbd").hide();
+	    $("#map_frame_sbd").show();
 	});
 }
 
@@ -185,9 +201,20 @@ function prepareDiagramPanels(){
 function prepareFullScreen(){
 	$(".fullscreenButton").click(
 		function(){
-			newwindow = window.open('/mapper/fullscreenmap.jsp','name','height='+$(window).height()+',width='+$(window).width()+"'");
-			if (window.focus) {newwindow.focus()}
-			return false;
+		var id = $('.currentMap').attr("id");
+		console.log( id );
+		var w = window.open('','Fullscreen map','height='+$(window).height()+',width='+$(window).width()+"'");
+		var frame = $("#"+id+" iframe")
+		frame.css({
+			   'width' : $(window).width(),
+			   'height' : $(window).height()
+		});
+		
+		
+		var html = $("#"+id).html();
+		
+		console.log(html);
+		$(w.document.body).html(html);
 		}
 	);
 };
@@ -195,36 +222,37 @@ function prepareFullScreen(){
 function prepareMapPanel(divName){
 	var headerText = "";
 	$('.map_panel').hide();
+	$('.map_panel').removeClass('currentMap');
 	
 	if ( divName == "duuregBGD" ){
-		console.log('bgd');
 		$("#headerControl").text("Баянгол дүүрэг" + headerText);
-		$(".map_bgd").show();
+		$("#map_bgd").show();
+		$("#map_bgd").addClass("currentMap");
 	}
 	else if (divName == "duuregBZD"){
-		console.log('bzd');
 		$("#headerControl").text("Баянзүрх дүүрэг" + headerText);
-		$(".map_bzd").show();
+		$("#map_bzd").show();
+		$("#map_bzd").addClass("currentMap");
 	}
 	else if (divName == "duuregCHD"){
-		console.log('bzd');
 		$("#headerControl").text("Чингэлтэй дүүрэг" + headerText);
-		$(".map_chd").show();
+		$("#map_chd").show();
+		$("#map_chd").addClass("currentMap");
 	}
 	else if (divName == "duuregHUD"){
-		console.log('bzd');
 		$("#headerControl").text("Хан-Уул дүүрэг" + headerText);
-		$(".map_hud").show();
+		$("#map_hud").show();
+		$("#map_hud").addClass("currentMap");
 	}
 	else if (divName == "duuregSHD"){
-		console.log('bzd');
 		$("#headerControl").text("Сонгино Хайрхан дүүрэг" + headerText);
-		$(".map_shd").show();
+		$("#map_shd").show();
+		$("#map_shd").addClass("currentMap");
 	}
 	else if (divName == "duuregSBD"){
-		console.log('bzd');
 		$("#headerControl").text("Сүхбаатар дүүрэг" + headerText);
-		$(".map_sbd").show();
+		$("#map_sbd").show();
+		$("#map_sbd").addClass("currentMap");
 	}
 }
 
