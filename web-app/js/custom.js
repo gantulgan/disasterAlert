@@ -2,10 +2,21 @@
  * Custom js functions.
  */
 function loadMap(){
-	$("#map_frame").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/1"); 
-	$('#map_frame').load(function(){
-		$(".map_loading").hide();
-	    $(this).show();
+	$("#map_frame_bgd").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/4");
+	$("#map_frame_bzd").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/5");
+	$("#map_frame_chd").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/6");
+	$("#map_frame_hud").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/7");
+	$("#map_frame_shd").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/9");
+	$("#map_frame_sbd").attr("src", "http://128.199.170.61:8080/geoexplorer/viewer/#maps/8");
+	
+	$('#map_frame_bgd').load(function(){
+		$(".map_loading_bgd").hide();
+	    $("#map_frame_bgd").show();
+	});
+	
+	$('#map_frame_bzd').load(function(){
+		$(".map_loading_bzd").hide();
+	    $("#map_frame_bzd").show();
 	});
 }
 
@@ -106,10 +117,10 @@ function loadLinkButtons(page){
 			window.location.href='/content/news/emergencyNews.jsp?type=emergency';
 		});
 		$("#topNews").click(function(){
-			window.location.href='/news.jsp?type=top';
+			window.location.href='/content/news/newNews.jsp?type=top';
 		});
 		$("#popularNews").click(function(){
-			window.location.href='/news.jsp?type=popular';
+			window.location.href='/content/news/emergencyNews.jsp?type=popular';
 		});
 	}
 	if ( page == "management" ){
@@ -128,16 +139,16 @@ function loadLinkButtons(page){
 	}
 	if ( page == "info" ){
 		$("#introIngo").click(function(){
-			window.location.href='/info.jsp?type=intro';
+			window.location.href='/content/info/info.jsp?type=info';
 		});
 		$("#adviceInfo").click(function(){
-			window.location.href='/info.jsp?type=advice';
+			window.location.href='/content/info/guidance.jsp?type=guidance';
 		});
 		$("#firstaidInfo").click(function(){
-			window.location.href='/info.jsp?type=firstaid';
+			window.location.href='/content/info/firstaid.jsp?type=firstaid';
 		});
 		$("#contactInfo").click(function(){
-			window.location.href='/info.jsp?type=contact';
+			window.location.href='/content/info/links.jsp?type=contact';
 		});
 	}
 };
@@ -177,6 +188,53 @@ function prepareFullScreen(){
 			newwindow = window.open('/mapper/fullscreenmap.jsp','name','height='+$(window).height()+',width='+$(window).width()+"'");
 			if (window.focus) {newwindow.focus()}
 			return false;
+		}
+	);
+};
+
+function prepareMapPanel(divName){
+	var headerText = "";
+	$('.map_panel').hide();
+	
+	if ( divName == "duuregBGD" ){
+		console.log('bgd');
+		$("#headerControl").text("Баянгол дүүрэг" + headerText);
+		$(".map_bgd").show();
+	}
+	else if (divName == "duuregBZD"){
+		console.log('bzd');
+		$("#headerControl").text("Баянзүрх дүүрэг" + headerText);
+		$(".map_bzd").show();
+	}
+	else if (divName == "duuregCHD"){
+		console.log('bzd');
+		$("#headerControl").text("Чингэлтэй дүүрэг" + headerText);
+		$(".map_chd").show();
+	}
+	else if (divName == "duuregHUD"){
+		console.log('bzd');
+		$("#headerControl").text("Хан-Уул дүүрэг" + headerText);
+		$(".map_hud").show();
+	}
+	else if (divName == "duuregSHD"){
+		console.log('bzd');
+		$("#headerControl").text("Сонгино Хайрхан дүүрэг" + headerText);
+		$(".map_shd").show();
+	}
+	else if (divName == "duuregSBD"){
+		console.log('bzd');
+		$("#headerControl").text("Сүхбаатар дүүрэг" + headerText);
+		$(".map_sbd").show();
+	}
+}
+
+function prepareMapSubMenu(){
+	$(".mapSubMenu").click(
+		function(){
+			$(".mapSubMenu").removeClass("selectedSubMenu");
+			$(this).addClass("selectedSubMenu");
+			var divName = this.id;
+			prepareMapPanel(divName);
 		}
 	);
 };
