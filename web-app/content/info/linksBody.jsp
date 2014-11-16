@@ -8,7 +8,7 @@
 <hr class="featurette-divider"/>
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<a href="/management.jsp"><span class="label label-primary">Менежмент</span></a>
+	<a href="/info.jsp"><span class="label label-primary">Мэдээлэл</span></a>
 	<a href=""><span class="label label-success">
 	<%=
 	URLUtil.typeConvertor(request.getParameter("type"))
@@ -23,13 +23,16 @@
 </div>
 <div id="dMSchemeContainer" class="col-md-9">
 
-<div class="responsive">
-    <h4>Зарчим</h4>
-    <img alt="" src="/images/principle.png" style="height: 100%; width: 100%"/>
-
+<div class="responsive" style="text-align: left;">
+	<p>Холбогдох мэдээлэлүүдийг доорх хаягуудаар орж авна уу.</p>
+	<ul>
+		<li><a href="http://www.ubservice.mn/" >Улаанбаатар хотын захирагчийн алба</a></li>
+		<li><a href="http://nema.gov.mn/" >Онцгой байдлын ерөнхий газар</a></li>
+		<li><a href="http://www.worldbank.org/" >Дэлхийн банк</a></li>
+	</ul>
 </div>
-
 </div>
 </div>
 </div>
-</div></div>
+</div>
+</div>

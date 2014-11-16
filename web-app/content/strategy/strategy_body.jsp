@@ -8,7 +8,7 @@
 <hr class="featurette-divider"/>
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<a href="/info.jsp"><span class="label label-primary">Менежмент</span></a>
+	<a href="/management.jsp"><span class="label label-primary">Менежмент</span></a>
 	<a href=""><span class="label label-success">
 	<%=
 	URLUtil.typeConvertor(request.getParameter("type"))
@@ -24,7 +24,14 @@
 <div id="dMSchemeContainer" class="col-md-9">
 
 <div class="responsive">
-    <h4>Стратеги</h4>
+    <h3>Улаанбаатар Хотын Үерийн Эрсдэлийн Стратеги</h3>
+    <br>
+    
+    <img alt="" src="/images/ubfrmStrategy.png" height="100%" width="100%"/>
+</div>
+<div class="responsive">
+    <br>
+    <h3>Strategy</h3>
     <p style="text-align: left;">
     International good practices suggest that the living with risk is unavoidable, however a continuous cycle of improvement and development can successfully reduce, mitigate and eliminate potential hazards and lower the risk profile of flood prone areas.
 Understanding the meaning of disaster and risk reduction is compulsary to develop institutional foundation. For the good understanding "Living with Risk" by ISDR main reference.

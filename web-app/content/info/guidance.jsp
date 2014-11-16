@@ -7,14 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-<title>Институци</title>
+<title>Зөвлөгөө</title>
 <jsp:include page="/includes/links.jsp"></jsp:include>
 </head>
 <body>
     <div id="background">
 		<jsp:include page="/includes/header.jsp"></jsp:include>
-		<jsp:include page="/content/institution/institution_body.jsp"></jsp:include>
+		<jsp:include page="/content/info/guidanceBody.jsp"></jsp:include>
 		<jsp:include page="/includes/footer.jsp"></jsp:include>
 	</div>	
 </body>
-</html>

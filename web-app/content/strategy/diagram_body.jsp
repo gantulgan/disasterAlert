@@ -7,7 +7,7 @@
 <div id="contentBody" >
 <div id="location" class="container">
 	<a href="/home.jsp"><span class="label label-default">Нүүр</span></a>
-	<a href="/info.jsp"><span class="label label-primary">Мэдээлэл</span></a>
+	<a href="/management.jsp"><span class="label label-primary">Менежмент</span></a>
 	<a href=""><span class="label label-success">
 	<%=
 	URLUtil.typeConvertor(request.getParameter("type"))

@@ -47,7 +47,7 @@
 	      	</div>
 	      	<div class="col-md-7">
 		        <h2 class="featurette-heading"><abbr title="Community Based Disaster Risk Management">CBDRM</abbr></h2>
-		        <p class="lead">Иргэдэд суурилсан гамшигийн эрсдэлийн менежмент гэж юу вэ?</p>
+		        <p class="lead">Сайн дурын нөхөрлөлд суурилсан гамшигийн эрсдэлийн менежмент гэж юу вэ?</p>
 	     	</div>
 	    	</div>
 	    </div>
