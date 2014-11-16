@@ -4,27 +4,24 @@
 	<form id="searchByDistrict">
 	<div>
 			<br />
-			<h3> Гамшгийн зэрэглэлийн үнэлэх</h3>
+			<h3 id="headerControl"> ---- </h3>
 			<br />
 			<div id="narrowCheckbox">
 			<ul>
 				<li>
 					<input id="ersdeliinBus" type="checkbox" name="ersdliinBus"/> 
-					<label for="ersdeliinBus">Эрсдлийн бүс</label>
+					<label for="ersdeliinBus">Hazard</label>
 				</li>
 				<li>
 					<input id="suitgehTalbai" type="checkbox" name="suitgehTalbai" /> 
-					<label for="suitgehTalbai">Сүйтгэх талбай</label>
+					<label for="suitgehTalbai">Exposure</label>
 				</li>
 				<li>
 					<input id="nuluulul" type="checkbox" name="nuluulul" /> 
-					<label for="nuluulul">Нөлөөлөл</label></li>
+					<label for="nuluulul">Vulnerability</label></li>
 				<li>
 					<input id="hohirliinHuree" type="checkbox" name="hohirliinHuree" /> 
-					<label for="hohirliinHuree">Хохирлын хүрээ</label></li>
-				<li>
-					<input id="uzegdel" type="checkbox" name="uzegdel" /> 
-					<label for="uzegdel">Үзэгдэл</label></li>
+					<label for="hohirliinHuree">Risk</label></li>
 			</ul>
 			<br/>
 			<button class="fullscreenButton">fullscreen</button>

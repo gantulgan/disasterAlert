@@ -11,61 +11,79 @@
 		</div>
 		<div class="span6">  
 			<div id="basin_control_select" class="mapTopMenu mapTopBasinMenu">
-				<font style="vertical-align: middle; padding-top: 5px;" >АЙ САВ</font>
+				<font style="vertical-align: middle; padding-top: 5px;" >САВ ГАЗАР</font>
 			</div>
 		</div>
 	</div>
 	<div class="districtSubMenu" >
 		<div class="row-fluid">
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Баянгол</div>
+				<div id="duuregBGD" class="mapSubMenu">Баянгол</div>
 			</div>
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Баянзүрх</div>
+				<div id="duuregBZD" class="mapSubMenu">Баянзүрх</div>
 			</div>
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Чингэлтэй</div>
+				<div id="duuregCHD" class="mapSubMenu">Чингэлтэй</div>
 			</div>
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Хан-Уул</div>
+				<div id="duuregHUD" class="mapSubMenu">Хан-Уул</div>
 			</div>
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Сонгино Хайрхан</div>
+				<div id="duuregSHD" class="mapSubMenu">Сонгино Хайрхан</div>
 			</div>
 			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Сүхбаатар</div>
+				<div id="duuregSBD" class="mapSubMenu">Сүхбаатар</div>
 			</div>
 		</div>
 	</div>
-	<div class="basinSubMenu" >
+	<div class="basinSubMenu" style="display: none;">
 		<div class="row-fluid">
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Баянгол</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav1" class="mapSubMenu">Сав газар 1</div>
 			</div>
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Баянзүрх</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav2" class="mapSubMenu">Сав газар 2</div>
 			</div>
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Чингэлтэй</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav3" class="mapSubMenu">Сав газар 3</div>
 			</div>
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Хан-Уул</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav4" class="mapSubMenu">Сав газар 4</div>
 			</div>
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Сонгино Хайрхан</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav5" class="mapSubMenu">Сав газар 5</div>
 			</div>
-			<div class="col-md-2" style="padding: 0 0 0 0;">
-				<div class="mapSubMenu">Сүхбаатар</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav6" class="mapSubMenu">Сав газар 6</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav7" class="mapSubMenu">Сав газар 7</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav8" class="mapSubMenu">Сав газар 8</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav9" class="mapSubMenu">Сав газар 9</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav10" class="mapSubMenu">Сав газар 10</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav11" class="mapSubMenu">Сав газар 11</div>
+			</div>
+			<div class="col-md-1" style="padding: 0 0 0 0;">
+				<div id="sav12" class="mapSubMenu">Сав газар 12</div>
 			</div>
 		</div>
 	</div>
 
 	
 	<div class="row">
-	<div class="col-md-3">
+	<div class="col-md-3" style="padding-right: 0">
 		<jsp:include page="/mapper/mapper_controller.jsp"></jsp:include>
 	</div>
-	<div class="col-md-9">	
+	<div class="col-md-9" style="padding-left: 0">	
 		<jsp:include page="/mapper/mapper_view.jsp"></jsp:include>
 	</div>
 	</div>
@@ -77,7 +95,8 @@
 		$("map_loading").show();
 		loadMap();
 		loadTab();
-		
 		prepareFullScreen();
+		prepareMapSubMenu();
+		$('#duuregBGD').trigger('click');
 	});
 </script>

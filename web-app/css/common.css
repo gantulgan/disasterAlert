@@ -55,7 +55,7 @@ div.news_category_title
 {
 	/* max-width: 290px; */
 	height: 580px;
-	background-color: #ccecf4;
+	background-color: #9ebec6;
 	border-bottom: 2px;
 }
 
@@ -370,18 +370,27 @@ div.news_category_title
 {
 	color: yellow;
 	opacity: 0.7;
-    filter: alpha(opacity=70); For IE8 and earlier
+    filter: alpha(opacity=0.7); /* For IE8 and earlier */
 }
 
 .mapTopBasinMenu
 {
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px 8px 0px 0px;
-	border-radius: 0px 8px 0px 0px; 
+	border-radius: 0px 8px 0px 0px;
+	color: grey; 
+	opacity: 0.8; */
+    filter: alpha(opacity=0.8); For IE8 and earlier
 }
-.mapTopBasinMenu:hover
+
+.selectedSubMenu
 {
-	color: yellow;
-	opacity: 1;
-    filter: alpha(opacity=1); For IE8 and earlier
+	color: orange;
 }
+
+/* .mapTopBasinMenu:hover */
+/* { */
+/* 	color: yellow; */
+/* 	opacity: 1; */
+/*     filter: alpha(opacity=1); For IE8 and earlier */
+/* } */
