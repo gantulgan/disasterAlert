@@ -352,7 +352,7 @@ div.news_category_title
 #mapMenu {
 	margin: auto;
 }
-.mapTopMenu, #mapMenu div
+.mapTopMenu, .mapSubMenu
 {
 	height: 40px;
 	background-image: url("/images/menu-background.gif");

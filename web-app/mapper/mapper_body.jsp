@@ -99,15 +99,15 @@
 	</div>
  -->
 	
-	<div class="row">
-	<div class="col-md-3" style="padding-right: 0">
-		<jsp:include page="/mapper/mapper_controller.jsp"></jsp:include>
-	</div>
-	<div class="col-md-9" style="padding-left: 0">	
-		<jsp:include page="/mapper/mapper_view.jsp"></jsp:include>
-	</div>
-	</div>
-	</div>
+<!-- 	<div class="row"> -->
+<!-- 	<div class="col-md-3" style="padding-right: 0"> -->
+<%-- 		<jsp:include page="/mapper/mapper_controller.jsp"></jsp:include> --%>
+<!-- 	</div> -->
+<!-- 	<div class="col-md-9" style="padding-left: 0">	 -->
+<%-- 		<jsp:include page="/mapper/mapper_view.jsp"></jsp:include> --%>
+<!-- 	</div> -->
+<!-- 	</div> -->
+<!-- 	</div> -->
 
 <script type="text/javascript">
 	$(function() {
